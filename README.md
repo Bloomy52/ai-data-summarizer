@@ -10,3 +10,10 @@ The structure of this git repository is as follows:
 ai-data-summarizer
 |- repo-structure-here
 ```
+
+## Project Requirements
+### Python
+This project utilizes Python 3.14.
+
+### API Keys
+This project utilizes AI API Keys. You may use any model you please as long as you have the correct API Key. Google has a very generous Free API, so I will be basing the rest of this project off of that, but I will include support for the OpenAI and Anthropic API Libraries. You can find documentation for how to get API Keys in the API Keys section below.
