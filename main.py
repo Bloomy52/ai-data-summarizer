@@ -1,3 +1,6 @@
+# Main code file for the AI Data Summarizer project
+# SPDX-License-Identifier: MIT
+
 # Import Statements
 import creds
 import os
