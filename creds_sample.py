@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 # RENAME THIS FILE TO creds.py BEFORE USE!
 GEMINI_API_KEY = ""
 OPENAI_API_KEY = ""
