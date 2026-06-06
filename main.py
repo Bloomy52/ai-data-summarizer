@@ -8,6 +8,8 @@ import sys
 import time
 import csv
 
+# Import the functions from the summarizer.py helper file
+from summarizer import *
 
 # Function Definitions
 
