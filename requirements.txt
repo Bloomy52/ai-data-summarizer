@@ -1,4 +1,4 @@
 creds
-google.genai
+google-genai
 openai
 anthropic
