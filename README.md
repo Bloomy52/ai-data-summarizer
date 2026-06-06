@@ -13,7 +13,7 @@ ai-data-summarizer
 
 ## Project Requirements
 ### Python
-This project utilizes Python 3.14. You can download Python at the following download link [https://www.python.org/downloads/](https://www.python.org/downloads/). Click the yellow button to download the latest version of Python for your OS, and install the Python Interpreter.
+This project utilizes Python 3.12. You can download Python at the following download link [https://www.python.org/downloads/](https://www.python.org/downloads/). Click the yellow button to download the latest version of Python for your OS, and install the Python Interpreter.
 
 > [!IMPORTANT]
 > **Windows Users**: Make sure that the Python Interpreter was added to the Path environment variable. When going through the installer, there should be an option in the Python installer that says "Add to Path." Make sure that option is checked. If you don't check the box, the following commands when running the code will not work!
