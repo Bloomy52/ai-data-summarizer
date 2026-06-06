@@ -5,7 +5,7 @@
 import creds
 import os
 import sys
-import time
+import datetime
 import csv
 
 # Import the functions from the summarizer.py helper file
