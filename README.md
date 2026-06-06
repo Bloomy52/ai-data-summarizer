@@ -15,9 +15,8 @@ ai-data-summarizer
 ### Python
 This project utilizes Python 3.14. You can download Python at the following download link [https://www.python.org/downloads/](https://www.python.org/downloads/). Click the yellow button to download the latest version of Python for your OS, and install the Python Interpreter.
 
-#### Windows Users
 > [!IMPORTANT]
-> Make sure that the Python Interpreter was added to the Path environment variable. When going through the installer, there should be an option in the Python installer that says "Add to Path." Make sure that option is checked. If you don't check the box, the following commands when running the code will not work!
+> **Windows Users**: Make sure that the Python Interpreter was added to the Path environment variable. When going through the installer, there should be an option in the Python installer that says "Add to Path." Make sure that option is checked. If you don't check the box, the following commands when running the code will not work!
 
 
 ### API Keys
@@ -27,7 +26,6 @@ This project utilizes AI API Keys. You may use any model you please as long as y
 - **Gemini**: Go to [Google AI Studio](https://aistudio.google.com). Login with your Google Account and Click Dashboard. Click "Create API Key", fill out the information and click create.
 - **OpenAI**: Go to the [OpenAI API Docs](https://developers.openai.com/api/docs). Click "Create API Key", login to the OpenAI API Portal. Click "Create new secret key", add a name (optional), then click "Create secret key." Copy the key and add it to your `.env` file.
 - **Anthropic**: Go to the [Claude API Docs](https://platform.claude.com/docs/en/home). Click "Get API Key", login with your Claude Developer Account, click "Create key", add a name, then click "Add." Copy this key and add it to your `.env` file.
-
 
 
 ### Git
@@ -41,3 +39,43 @@ Go to [https://git-scm.com/install/mac](https://git-scm.com/install/mac) and use
 #### Linux
 Go to [https://git-scm.com/install/linux](https://git-scm.com/install/linux) and follow the instructions for your specific Linux Distribution.
 
+
+## How to Use
+1. Clone the git repository and `cd` into it
+   ```bash
+   git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
+   cd ai-data-summarizer
+   ```
+2. Initalize and Activate your Python Virtual Environment  
+   **Linux and macOS Users**
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+   **Windows Users**
+   ```cmd
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   ```
+3. Install the requirements using `pip`. You can use one of the following methods depending on your OS.  
+   **Linux & macOS Users**
+   ```bash
+   python3 -m pip install -r requirements.txt
+   ```
+   **Windows Users**
+   ```cmd
+   python -m pip install -r requirements.txt
+   ```
+5. Add your environment variables to the `creds.py` file.
+6. Run the CLI using the following command based on your OS
+   **Linux & macOS Users**
+   ```bash
+   python3 cli.py
+   ```
+   **Windows Users**
+   ```cmd
+   python cli.py
+   ```
+
+
+   
