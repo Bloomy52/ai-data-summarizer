@@ -67,9 +67,9 @@ Go to [https://git-scm.com/install/linux](https://git-scm.com/install/linux) and
    python -m pip install -r requirements.txt
    ```
 5. Add your environment variables to the `creds.py` file.  
-   > [!IMPORTANT]
-   > Make sure to rename the `creds_sample.py` file to `creds.py`. The program will not work without it.
-7. Run the CLI using the following command based on your OS
+> [!IMPORTANT]  
+> Make sure to rename the `creds_sample.py` file to `creds.py`. The program will not work otherwise.
+6. Run the CLI using the following command based on your OS
    **Linux & macOS Users**
    ```bash
    python3 main.py
