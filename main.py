@@ -56,6 +56,15 @@ def main():
 
         break
 
+    with open(input_file, "r", encoding="utf-8", errors="replace") as infile:
+        csv_text = infile.read()
+
+    check_tokens_gemini(csv_text)
+
+    summary = gemini_summarizer(csv_text, os.path.basename(input_file).split(".")[0])
+    print("\nSummary:\n")
+    print(summary)
+
     return None
 
 if __name__ == "__main__":
