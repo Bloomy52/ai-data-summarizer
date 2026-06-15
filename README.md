@@ -42,7 +42,7 @@ Go to [https://git-scm.com/install/linux](https://git-scm.com/install/linux) and
 
 ## How to Use
 > [!NOTE]
-> This only supports Gemini at the moment and support for the Anthropic and OpenAI APIs are coming soon.
+> This only supports Gemini at the moment. Support for the Anthropic and OpenAI APIs are coming soon.
 
 1. Clone the git repository and `cd` into it
    ```bash
