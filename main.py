@@ -63,7 +63,7 @@ def main():
     prompt = get_prompt()
     check_tokens_gemini(prompt, csv_text)
 
-    summary = gemini_summarizer(csv_text, os.path.basename(input_file).split(".")[0])
+    summary = gemini_summarizer(prompt, csv_text, os.path.basename(input_file).split(".")[0])
     print("\nSummary:\n")
     print(summary)
 
