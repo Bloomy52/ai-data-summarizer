@@ -15,7 +15,7 @@ from google import genai
 from google.genai import types
 from google.genai import local_tokenizer
 
-prompt = # TODO: Add prompt here
+prompt = "" # TODO: Add prompt here
 
 # Function Definitions
 # TODO: Implement summarization functions here
@@ -33,10 +33,19 @@ def google_tokenizer(text):
 def openai_tokenizer(prompt, text):
     client = OpenAI(api_key=creds.OPENAI_API_KEY)
     response = client.responses.input_tokens.count(
-    model="gpt-5.4-mini",
-    instructions=prompt,
-    input=text,
-)
+        model="gpt-5.4-mini",
+        instructions=prompt,
+        input=text,
+    )
     return response.input_tokens
-    
+
+# Anthropic Tokenizer
+def anthropic_tokenizer(prompt, text):
+    client = anthropic.Anthropic(api_key=creds.ANTHROPIC_API_KEY)
+    response = client.messages.count_tokens(
+        model="claude-haiku-4-5",
+        system=prompt,
+        messages=[{"role": "user", "content": text}],
+    )
+    return response.get("input_tokens", 0)
 
