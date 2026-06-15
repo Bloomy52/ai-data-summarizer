@@ -1,3 +1,6 @@
+# Code File for calling the tokenization functions -- Mainly a helper file to keep code organized
+# SPDX-License-Identifier: MIT
+
 import creds
 
 from openai import OpenAI
