@@ -10,9 +10,9 @@ from google.genai import local_tokenizer
 # Google GenAI Tokenizer
 def google_tokenizer(prompt, text):
     client = genai.Client(api_key=creds.GEMINI_API_KEY)
-    tokenizer = local_tokenizer.LocalTokenizer(model_name='gemini-3.5-flash')
+    tokenizer = local_tokenizer.LocalTokenizer(model_name='gemini-2.5-flash')
     result = tokenizer.count_tokens(prompt + text)
-    return result
+    return result.total_tokens
 
 # OpenAI Tokenizer
 def openai_tokenizer(prompt, text):
