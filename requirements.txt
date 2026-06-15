@@ -1,4 +1,5 @@
 creds
 google-genai
+google-protobuf
 openai
 anthropic
