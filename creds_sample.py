@@ -2,5 +2,5 @@
 # RENAME THIS FILE TO creds.py BEFORE USE!
 GEMINI_API_KEY = ""
 OPENAI_API_KEY = ""
-CLAUDE_API_KEY = ""
+ANTHROPIC_API_KEY = ""
 GEMINI_FREE_TIER = True # Defaults to True, set to False if you pay for the Gemini API.
