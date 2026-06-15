@@ -20,19 +20,22 @@ from google.genai import types
 
 # Gemini Summarizer
 def gemini_summarizer(prompt, text, filename):
-    client = genai.Client(api_key=creds.GEMINI_API_KEY)
-
     MODEL_ID = "gemini-3.5-flash"
+    try:
+        client = genai.Client(api_key=creds.GEMINI_API_KEY)
 
-    response = client.models.generate_content(
-        model=MODEL_ID,
-        contents=[
-            text,
-            prompt,
-        ]
-    )
-    output = response.text
-
+        response = client.models.generate_content(
+            model=MODEL_ID,
+            contents=[
+                text,
+                prompt,
+            ]
+        )
+        output = response.text
+    except Exception as e:
+        print(f"Error generating summary: {e}")
+        return None
+    
     # Create summaries directory if it doesn't exist
     summaries_dir = "./summaries"
     os.makedirs(summaries_dir, exist_ok=True)
