@@ -59,7 +59,7 @@ final_prompt = f"""{task_summary}
 # TODO: Implement summarization functions here
 
 # Gemini Summarizer
-def gemini_summarizer(text):
+def gemini_summarizer(text, filename):
     client = genai.Client(api_key=creds.GEMINI_API_KEY)
 
     MODEL_ID = "gemini-3.5-flash"
@@ -71,3 +71,9 @@ def gemini_summarizer(text):
             final_prompt,
         ]
     )
+    output = response.text
+
+    summary_local_path = f"/summaries/{MODEL_ID}.{filename}.txt"
+    with open(summary_local_path, "w") as outfile:
+        outfile.write(output)
+    return output
