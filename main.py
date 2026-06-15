@@ -11,12 +11,13 @@ import csv
 # Import the functions from the summarizer.py helper file
 from summarizer import *
 from tokenizer import *
+from prompt import *
 
 # Function Definitions
 
-def check_tokens_gemini(text):
+def check_tokens_gemini(prompt, text):
     # This function checks the number of tokens to make sure that they are within the Free Tier limits
-    google_tokens = google_tokenizer(text)
+    google_tokens = google_tokenizer(prompt, text)
     if creds.GEMINI_FREE_TIER == True and google_tokens > 250000:
         print(f"Warning: Your input text has {google_tokens} tokens, which exceeds the free tier limit of 250,000 tokens per minute for Gemini. Consider reducing the input size or upgrading your plan.")
     elif creds.GEMINI_FREE_TIER == True:
@@ -58,12 +59,13 @@ def main():
 
     with open(input_file, "r", encoding="utf-8", errors="replace") as infile:
         csv_text = infile.read()
+    
+    prompt = get_prompt()
+    check_tokens_gemini(prompt, csv_text)
 
-    check_tokens_gemini(csv_text)
-
-    summary = gemini_summarizer(csv_text, os.path.basename(input_file).split(".")[0])
-    print("\nSummary:\n")
-    print(summary)
+    #summary = gemini_summarizer(csv_text, os.path.basename(input_file).split(".")[0])
+    #print("\nSummary:\n")
+    #print(summary)
 
     return None
 
