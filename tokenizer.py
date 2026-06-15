@@ -8,10 +8,10 @@ from google.genai import local_tokenizer
 
 # Tokenization Functios
 # Google GenAI Tokenizer
-def google_tokenizer(text):
+def google_tokenizer(prompt, text):
     client = genai.Client(api_key=creds.GEMINI_API_KEY)
     tokenizer = local_tokenizer.LocalTokenizer(model_name='gemini-3.5-flash')
-    result = tokenizer.count_tokens(text)
+    result = tokenizer.count_tokens(prompt + text)
     return result
 
 # OpenAI Tokenizer
