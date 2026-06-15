@@ -19,3 +19,7 @@ prompt = "" # TODO: Add prompt here
 # Function Definitions
 # TODO: Implement summarization functions here
 
+# Gemini Summarizer
+def gemini_summarizer(text):
+    client = genai.Client(api_key=creds.GEMINI_API_KEY)
+
