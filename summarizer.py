@@ -33,7 +33,11 @@ def gemini_summarizer(prompt, text, filename):
     )
     output = response.text
 
-    summary_local_path = f"/summaries/{MODEL_ID}.{filename}.txt"
+    # Create summaries directory if it doesn't exist
+    summaries_dir = "./summaries"
+    os.makedirs(summaries_dir, exist_ok=True)
+    
+    summary_local_path = f"{summaries_dir}/{MODEL_ID}.{filename}.txt"
     with open(summary_local_path, "w") as outfile:
         outfile.write(output)
     return output
