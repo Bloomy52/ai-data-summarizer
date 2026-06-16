@@ -1,5 +1,5 @@
 google-genai
-google-protobuf
 sentencepiece
 openai
 anthropic
+google-protobuf
