@@ -1,0 +1,24 @@
+Overview
+
+I reviewed the dataset you shared. It contains daily transit ride tracking data spanning over 25 years, from January 1, 2001, to March 31, 2026. This extensive daily record captures long-term ridership trends and reveals how public transit usage fluctuates across weekdays, weekends, and holidays, alongside the long-term impact of major external disruptions.
+
+
+Column Breakdown
+
+Here is what each column represents, along with a few minor data issues to keep in mind:
+
+- date: The calendar date of the record. I noticed a few duplicate date entries in July and August of 2011 (for example, July 27, August 6, and August 10 each have two separate rows with slightly different ridership numbers). We should deduplicate these before doing any heavy modeling.
+- daytype: A single-letter code classifying the day. "W" represents weekdays, "A" represents Saturdays, and "U" represents Sundays or major holidays (which explains why days like Christmas and Thanksgiving are marked with "U").
+- rides: The total ridership count for the day. These numbers are currently formatted as text strings with commas, so we will need to convert them to integers for calculations.
+
+
+Key Takeaways
+
+A few highly notable trends and anomalies stand out in the data:
+
+- The 2020 ridership collapse: Starting around March 13, 2020, ridership plummeted from over 4,500 daily rides to triple-digits within a week (falling to just 339 on March 22, 2020). This sudden drop aligns with the start of the COVID-19 pandemic lockdowns. While ridership slowly recovered starting in 2022, daily numbers in 2025 and 2026 still remain significantly below pre-2020 baselines.
+- Extreme weather anomalies: Weekday ridership dropped to an unusually low 576 rides on January 30, 2019, which directly coincides with the historic sub-zero temperatures of the 2019 Midwestern polar vortex.
+- Historic ridership spikes: The dataset features massive single-day spikes, most notably in late October and early November 2016. Ridership hit a record peak of 33,615 on Saturday, October 29, 2016, and 26,309 on Friday, November 4, 2016. These dates align perfectly with the Chicago Cubs World Series victory and parade, which drew massive transit crowds.
+- Unexplained low points: June 13, 2001, shows a weekday ridership of only 128, which is highly unusual for a Wednesday during that period and may indicate a local service outage or reporting error.
+
+Let me know if you would like me to clean up the duplicates or start forecasting the next steps!
