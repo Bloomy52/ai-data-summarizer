@@ -7,25 +7,45 @@ This project is a continuation of my CS178 Final Project. You can find the repo 
 ## Repo Structure
 The structure of this git repository is as follows:
 ```text
-ai-data-summarizer
-|- repo-structure-here
+ai-data-summarizer/
+├── main.py                 # CLI entry point and main application logic
+├── summarizer.py           # Core data summarization functionality
+├── prompt.py               # Prompt templates and management
+├── tokenizer.py            # Token counting and management utilities
+├── creds_sample.py         # Sample credentials file (rename to creds.py)
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+├── LICENSE                 # MIT License
+├── .gitignore              # Git ignore rules
+├── .vscode/
+│   └── settings.json       # VSCode configuration
+└── examples/
+    └── CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv  # Sample dataset
 ```
+
+**Key Files:**
+- **main.py** - Entry point for the CLI tool
+- **summarizer.py** - Core logic for AI-powered data summarization
+- **prompt.py** - Prompt engineering and template management
+- **tokenizer.py** - Token counting utilities for API usage optimization
+- **creds_sample.py** - Template for storing API credentials (copy to creds.py)
+- **examples/** - Sample datasets for testing the tool
 
 ## Project Requirements
 ### Python
-This project utilizes Python 3.12. You can download Python at the following download link [https://www.python.org/downloads/](https://www.python.org/downloads/). Click the yellow button to download the latest version of Python for your OS, and install the Python Interpreter.
+This project utilizes Python 3.12. You can download Python at the following download link [https://www.python.org/downloads/](https://www.python.org/downloads/). Click the yellow button to downloa[...]
 
 > [!IMPORTANT]
-> **Windows Users**: Make sure that the Python Interpreter was added to the Path environment variable. When going through the installer, there should be an option in the Python installer that says "Add to Path." Make sure that option is checked. If you don't check the box, the following commands when running the code will not work!
+> **Windows Users**: Make sure that the Python Interpreter was added to the Path environment variable. When going through the installer, there should be an option in the Python installer that says[...]
 
 
 ### API Keys
-This project utilizes AI API Keys. You may use any model you please as long as you have the correct API Key. Google has a very generous Free API, so I will be basing the rest of this project off of that, but I will include support for the OpenAI and Anthropic API Libraries. You can find documentation for how to get API Keys in the API Keys section below.
+This project utilizes AI API Keys. You may use any model you please as long as you have the correct API Key. Google has a very generous Free API, so I will be basing the rest of this project off o[...]
 
 #### Getting API Keys
-- **Gemini**: Go to [Google AI Studio](https://aistudio.google.com). Login with your Google Account and Click Dashboard. Click "Create API Key", fill out the information and click create. Copy this key and add it to your `.env` file.
-- **OpenAI**: Go to the [OpenAI API Docs](https://developers.openai.com/api/docs). Click "Create API Key", login to the OpenAI API Portal. Click "Create new secret key", add a name (optional), then click "Create secret key." Copy the key and add it to your `.env` file.
-- **Anthropic**: Go to the [Claude API Docs](https://platform.claude.com/docs/en/home). Click "Get API Key", login with your Claude Developer Account, click "Create key", add a name, then click "Add." Copy this key and add it to your `.env` file.
+- **Gemini**: Go to [Google AI Studio](https://aistudio.google.com). Login with your Google Account and Click Dashboard. Click "Create API Key", fill out the information and click create. Copy thi[...]
+- **OpenAI**: Go to the [OpenAI API Docs](https://developers.openai.com/api/docs). Click "Create API Key", login to the OpenAI API Portal. Click "Create new secret key", add a name (optional), the[...]
+- **Anthropic**: Go to the [Claude API Docs](https://platform.claude.com/docs/en/home). Click "Get API Key", login with your Claude Developer Account, click "Create key", add a name, then click "A[...]
 
 
 ### Git
@@ -82,5 +102,3 @@ Go to [https://git-scm.com/install/linux](https://git-scm.com/install/linux) and
    python main.py
    ```
 
-
-   
