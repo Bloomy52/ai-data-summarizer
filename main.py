@@ -40,6 +40,22 @@ def check_tokens_anthropic(prompt, text):
     tokens = anthropic_tokenizer(prompt, text)
     print(f"Your input text has {tokens} tokens.")
 
+def get_model_provider():
+    while True:
+        print("\nSelect a model provider:")
+        print("1. Google Gemini")
+        print("2. OpenAI")
+        print("3. Anthropic")
+        choice = input("Enter the number corresponding to your choice: ").strip()
+
+        if choice == '1':
+            return 1 # Gemini
+        elif choice == '2':
+            return 2 # OpenAI
+        elif choice == '3':
+            return 3 # Anthropic
+        else:
+            print("Invalid choice. Please enter 1, 2, or 3.")
 
 # Main Function
 def main():
