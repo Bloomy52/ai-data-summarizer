@@ -19,7 +19,10 @@ def check_tokens_gemini(prompt, text):
     # This function checks the number of tokens to make sure that they are within the Free Tier limits
     google_tokens = google_tokenizer(prompt, text)
     if creds.GEMINI_FREE_TIER == True and google_tokens > 250000:
-        print(f"Warning: Your input text has {google_tokens} tokens, which exceeds the free tier limit of 250,000 tokens per minute for Gemini. Consider reducing the input size or upgrading your plan.")
+        print(f"Warning: Your input text has {google_tokens} tokens, which exceeds the free tier limit of 250,000 tokens per minute for Gemini. Consider reducing the input size or upgrading your plan. ")
+        print("Would you like to continue anyway? (y/N)")
+        if input().lower() != 'y':
+            sys.exit(1)
     elif creds.GEMINI_FREE_TIER == True:
         print(f"Your input text has {google_tokens} tokens, which is within the free tier limit for Gemini.")
     # TODO (maybe): Add cost functionality to estimate cost of input response
@@ -51,7 +54,7 @@ def main():
             continue
 
         if not input_file.lower().endswith('.csv'):
-            print("Warning: file extension is not .csv. Continue anyway? (y/n)")
+            print("Warning: file extension is not .csv. Continue anyway? (y/N)")
             if input().lower() != 'y':
                 continue
 
