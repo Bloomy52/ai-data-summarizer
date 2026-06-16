@@ -82,6 +82,19 @@ Go to [https://git-scm.com/install/linux](https://git-scm.com/install/linux) and
    ```cmd
    python -m pip install -r requirements.txt
    ```
+
+   You can also use `uv` if you would like. If you would like to use uv, use the following commands:
+   **Linux & macOS Users**
+   ```bash
+   python3 -m pip install uv
+   uv pip install -r requirements.txt
+   ```
+   **Windows Users**
+   ```cmd
+   python -m pip install uv
+   uv pip install -r requirements.txt
+   ```
+
 5. Add your environment variables to the `creds.py` file.  
 > [!IMPORTANT]  
 > Make sure to rename the `creds_sample.py` file to `creds.py`. The program will not work otherwise.
