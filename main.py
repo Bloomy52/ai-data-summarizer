@@ -25,6 +25,9 @@ def check_tokens_gemini(prompt, text):
             sys.exit(1)
     elif creds.GEMINI_FREE_TIER == True:
         print(f"Your input text has {google_tokens} tokens, which is within the free tier limit for Gemini.")
+        print("Would you like to continue? (Y/n)")
+        if input().lower() == 'n':
+            sys.exit(1)
     # TODO (maybe): Add cost functionality to estimate cost of input response
 
 
