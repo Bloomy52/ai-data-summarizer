@@ -11,10 +11,18 @@ from google.genai import local_tokenizer
 # Tokenization Functios
 # Google GenAI Tokenizer
 def google_tokenizer(prompt, text):
-    #client = genai.Client(api_key=creds.GEMINI_API_KEY)
-    tokenizer = local_tokenizer.LocalTokenizer(model_name='gemini-2.5-flash')
-    result = tokenizer.count_tokens(prompt + text)
-    return result.total_tokens
+    MODEL_ID = "gemini-3.5-flash"
+    client = genai.Client(api_key=creds.GEMINI_API_KEY)
+
+    response = client.models.count_tokens(
+        model=MODEL_ID,
+        contents=[
+            text,
+            prompt,
+        ]
+    )
+    tokens = response.total_tokens
+    return tokens
 
 # OpenAI Tokenizer
 def openai_tokenizer(prompt, text):
