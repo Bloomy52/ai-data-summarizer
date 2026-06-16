@@ -20,7 +20,8 @@ ai-data-summarizer/
 ├── .vscode/
 │   └── settings.json       # VSCode configuration
 └── examples/
-    └── CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv  # Sample dataset
+    ├── CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv  # Sample dataset
+    └── CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt  # Sample summary
 ```
 
 ## Project Requirements
