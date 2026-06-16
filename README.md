@@ -7,8 +7,20 @@ This project is a continuation of my CS178 Final Project. You can find the repo 
 ## Repo Structure
 The structure of this git repository is as follows:
 ```text
-ai-data-summarizer
-|- repo-structure-here
+ai-data-summarizer/
+├── main.py                 # CLI entry point and main application logic
+├── summarizer.py           # Core data summarization functionality
+├── prompt.py               # Prompt templates and management
+├── tokenizer.py            # Token counting and management utilities
+├── creds_sample.py         # Sample credentials file (rename to creds.py)
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+├── LICENSE                 # MIT License
+├── .gitignore              # Git ignore rules
+├── .vscode/
+│   └── settings.json       # VSCode configuration
+└── examples/
+    └── CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv  # Sample dataset
 ```
 
 ## Project Requirements
