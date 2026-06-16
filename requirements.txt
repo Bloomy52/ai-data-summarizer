@@ -2,4 +2,4 @@ google-genai
 sentencepiece
 openai
 anthropic
-google-protobuf
+protobuf
