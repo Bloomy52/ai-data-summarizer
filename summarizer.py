@@ -5,6 +5,7 @@
 import creds
 import os
 import sys
+from zoneinfo import ZoneInfo
 import datetime as dt
 import csv
 
@@ -42,7 +43,18 @@ def gemini_summarizer(prompt, text, filename, prompt_type):
     
     now = dt.datetime.now()
     date_string = now.strftime("%Y-%m-%d")
+    central_tz = ZoneInfo("America/Chicago")
+    date_written = dt.datetime.now(central_tz).strftime("%Y-%m-%d %H:%M:%S %Z")
     summary_local_path = f"{summaries_dir}/{MODEL_ID}.{filename}.{date_string}.txt"
     with open(summary_local_path, "w") as outfile:
+        # Add Header Section to the output file
+        outfile.write("=" * 10 + "BEGIN HEADER" + "=" * 10 + "\n")
+        outfile.write("Date Written: " + date_written + "\n")
+        outfile.write("Model Used: " + MODEL_ID + "\n")
+        outfile.write("Prompt Type: " + prompt_type + "\n")
+        outfile.write("=" * 10 + "END HEADER" + "=" * 10 + "\n\n")
+        outfile.write("" + "=" * 10 + "BEGIN SUMMARY FOR " + filename + " " + "=" * 10 + "\n")
+        
+        # Add main summary output to the output file
         outfile.write(output)
     return output
