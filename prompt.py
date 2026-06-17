@@ -2,6 +2,8 @@
 # File contains different prompts which can be used to help the user understand the file 
 # SPDX-License-Identifier: MIT
 
+# Define Prompts that can be used
+
 def get_tldr_prompt():
     # Modified sections inside prompt.py
 
