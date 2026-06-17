@@ -1,7 +1,30 @@
 # Main Prompt File
+# File contains different prompts which can be used to help the user understand the file 
 # SPDX-License-Identifier: MIT
 
-def get_prompt():
+def get_tldr_prompt():
+    # Modified sections inside prompt.py
+
+    task_summary = f"""
+    ## Task Summary:
+    {{Provide a 'Too Long; Didn't Read' (TL;DR) summary of the attached CSV. Distill the entire dataset into its single most important insight or trend, followed by 2-3 bulleted key facts.}}
+    """
+
+    response_style = f"""
+    ## Response style and format requirements:
+    - {{Write in a sharp, punchy, and bottom-line-up-front (BLUF) style}}
+    - {{Format: Start with a single 'TL;DR:' sentence, followed by a short bulleted list}}
+    - {{Strictly limit the response to 100 words or less}}
+    - {{Use plain text only — no Markdown. Bullets are to be noted with '-'}}
+    """
+
+    final_prompt = f"""{task_summary}
+    {response_style}"""
+
+    return final_prompt
+
+
+def get_audit_prompt():
     # Prompt for the Summarizer:
     # Use this to clearly define the task and job needed by the model
     task_summary = f"""
