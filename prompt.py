@@ -2,6 +2,39 @@
 # File contains different prompts which can be used to help the user understand the file 
 # SPDX-License-Identifier: MIT
 
+# Define Prompt Choosing Functions
+def get_prompt_type():
+    """
+    This function allows the user to select a prompt from a list of available prompts. 
+    It returns the selected prompt as a string.
+    Returns: str: The selected prompt.
+    """
+    while True:
+        print("\nSelect a prompt:")
+        print("1. TL;DR Summary Prompt")
+        print("2. Data Audit Prompt")
+        choice = input("Enter the number corresponding to your choice: ").strip()
+
+        if choice == '1':
+            return "tldr"
+        elif choice == '2':
+            return "audit"
+        else:
+            print("Invalid choice. Please enter 1 or 2.")
+
+def get_prompt(prompt_type):
+    """
+    This function retrieves the appropriate prompt based on the user's selection.
+    Returns: str: The selected prompt.
+    """
+    if prompt_type == "tldr":
+        return get_tldr_prompt()
+    elif prompt_type == "audit":
+        return get_audit_prompt()
+  
+
+
+
 # Define Prompts that can be used
 
 def get_tldr_prompt():
