@@ -38,24 +38,28 @@ def get_prompt(prompt_type):
 # Define Prompts that can be used
 
 def get_tldr_prompt():
-    # Modified sections inside prompt.py
-
     task_summary = f"""
     ## Task Summary:
-    {{Provide a 'Too Long; Didn't Read' (TL;DR) summary of the attached CSV. Distill the entire dataset into its single most important insight or trend, followed by 2-3 bulleted key facts.}}
+    {{Produce a 'Too Long; Didn’t Read' (TL;DR) summary of the attached dataset. The TL;DR sentence should describe, in one high-level line, what the dataset is and what it covers. Then provide 2–3 bullets highlighting the most notable patterns, trends, or anomalies visible in the data. Use numeric ranges when helpful, but keep the focus on the biggest takeaways.}}
     """
 
     response_style = f"""
     ## Response style and format requirements:
     - {{Write in a sharp, punchy, and bottom-line-up-front (BLUF) style}}
     - {{Format: Start with a single 'TL;DR:' sentence, followed by a short bulleted list}}
+    - {{Bullets must follow these rules:
+        - Start with a short, strong label (e.g., 'Trend shift:', 'Category contrast:', 'Peak anomaly:')
+        - Contain exactly one idea per bullet
+        - Use numeric anchors when possible
+        - Avoid hedging, filler, or multi-clause sentences
+        - Read like headlines, not explanations}}
     - {{Strictly limit the response to 100 words or less}}
     - {{Use plain text only — no Markdown. Bullets are to be noted with '-'}}
     """
 
     final_prompt = f"""{task_summary}
     {response_style}"""
-
+    
     return final_prompt
 
 
