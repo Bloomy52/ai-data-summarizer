@@ -30,7 +30,7 @@ def write_outfile(output, filename, prompt_type, model_id):
     central_tz = ZoneInfo("America/Chicago")
     date_written = dt.datetime.now(central_tz).strftime("%A, %B %d, %Y")
     time_written = dt.datetime.now(central_tz).strftime("%I:%M %p %Z")
-    summary_local_path = f"{summaries_dir}/{date_time_string}.{model_id}.{filename}.txt"
+    summary_local_path = f"{summaries_dir}/{date_time_string}.{filename}.{model_id}.txt"
     with open(summary_local_path, "w") as outfile:
         # Add Header Section to the output file
         outfile.write("=" * 10 + "BEGIN HEADER" + "=" * 10 + "\n")
