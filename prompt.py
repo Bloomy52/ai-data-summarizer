@@ -10,15 +10,15 @@ def get_prompt_type():
     Returns: str: The selected prompt.
     """
     while True:
-        print("\nSelect a prompt:")
-        print("1. TL;DR Summary Prompt")
-        print("2. Data Audit Prompt")
+        print("\nSelect a Summary:")
+        print("1. TL;DR Summary")
+        print("2. Data Overview")
         choice = input("Enter the number corresponding to your choice: ").strip()
 
         if choice == '1':
             return "tldr"
         elif choice == '2':
-            return "audit"
+            return "overview"
         else:
             print("Invalid choice. Please enter 1 or 2.")
 
@@ -29,9 +29,9 @@ def get_prompt(prompt_type):
     """
     if prompt_type == "tldr":
         return get_tldr_prompt()
-    elif prompt_type == "audit":
-        return get_audit_prompt()
-  
+    elif prompt_type == "overview":
+        return get_overview_prompt()
+
 
 
 
@@ -63,7 +63,7 @@ def get_tldr_prompt():
     return final_prompt
 
 
-def get_audit_prompt():
+def get_overview_prompt():
     # Prompt for the Summarizer:
     # Use this to clearly define the task and job needed by the model
     task_summary = f"""
