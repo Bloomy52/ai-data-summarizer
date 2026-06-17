@@ -42,14 +42,16 @@ def gemini_summarizer(prompt, text, filename, prompt_type):
     os.makedirs(summaries_dir, exist_ok=True)
     
     now = dt.datetime.now()
-    date_string = now.strftime("%Y-%m-%d")
+    date_time_string = now.strftime("%Y-%m-%d %H-%M-%S")
     central_tz = ZoneInfo("America/Chicago")
-    date_written = dt.datetime.now(central_tz).strftime("%Y-%m-%d %H:%M:%S %Z")
-    summary_local_path = f"{summaries_dir}/{MODEL_ID}.{filename}.{date_string}.txt"
+    date_written = dt.datetime.now(central_tz).strftime("%A, %B %d, %Y")
+    time_written = dt.datetime.now(central_tz).strftime("%I:%M %p %Z")
+    summary_local_path = f"{summaries_dir}/{MODEL_ID}.{filename}.{date_time_string}.txt"
     with open(summary_local_path, "w") as outfile:
         # Add Header Section to the output file
         outfile.write("=" * 10 + "BEGIN HEADER" + "=" * 10 + "\n")
         outfile.write("Date Written: " + date_written + "\n")
+        outfile.write("Time Written: " + time_written + "\n")
         outfile.write("Model Used: " + MODEL_ID + "\n")
         outfile.write("Prompt Type: " + prompt_type + "\n")
         outfile.write("=" * 10 + "END HEADER" + "=" * 10 + "\n\n")
