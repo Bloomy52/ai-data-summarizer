@@ -5,7 +5,7 @@
 import creds
 import os
 import sys
-import datetime
+import datetime as dt
 import csv
 
 # Importing AI Libraries
@@ -40,7 +40,9 @@ def gemini_summarizer(prompt, text, filename, prompt_type):
     summaries_dir = f"./summaries/{prompt_type}"
     os.makedirs(summaries_dir, exist_ok=True)
     
-    summary_local_path = f"{summaries_dir}/{MODEL_ID}.{filename}.txt"
+    now = dt.datetime.now()
+    date_string = now.strftime("%Y-%m-%d")
+    summary_local_path = f"{summaries_dir}/{MODEL_ID}.{filename}.{date_string}.txt"
     with open(summary_local_path, "w") as outfile:
         outfile.write(output)
     return output
