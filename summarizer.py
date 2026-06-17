@@ -40,7 +40,6 @@ def write_outfile(output, filename, prompt_type, model_id):
         outfile.write("Prompt Type: " + prompt_type + "\n")
         outfile.write("File Name: " + filename + "\n")
         outfile.write("=" * 10 + "END HEADER" + "=" * 10 + "\n\n")
-        outfile.write("" + "=" * 10 + "BEGIN SUMMARY" + "=" * 10 + "\n\n")
         
         # Add main summary output to the output file
         outfile.write(output)
