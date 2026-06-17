@@ -19,7 +19,7 @@ from google.genai import types
 # TODO: Implement summarization functions here
 
 # Gemini Summarizer
-def gemini_summarizer(prompt, text, filename):
+def gemini_summarizer(prompt, text, filename, prompt_type):
     MODEL_ID = "gemini-3.5-flash"
     try:
         client = genai.Client(api_key=creds.GEMINI_API_KEY)
@@ -37,7 +37,7 @@ def gemini_summarizer(prompt, text, filename):
         return None
     
     # Create summaries directory if it doesn't exist
-    summaries_dir = "./summaries"
+    summaries_dir = f"./summaries/{prompt_type}"
     os.makedirs(summaries_dir, exist_ok=True)
     
     summary_local_path = f"{summaries_dir}/{MODEL_ID}.{filename}.txt"
