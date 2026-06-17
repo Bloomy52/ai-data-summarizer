@@ -85,17 +85,11 @@ def main():
         csv_text = infile.read()
     
     prompt_type = get_prompt_type()
-    if prompt_type == "tldr":
-        print("\nYou have selected the TL;DR Summary Prompt.")
-        prompt = get_tldr_prompt()
-    elif prompt_type == "audit":
-        print("\nYou have selected the Data Audit Prompt.")
-        prompt = get_audit_prompt()
+    prompt = get_prompt(prompt_type)
 
-    prompt = get_prompt()
     check_tokens_gemini(prompt, csv_text)
 
-    summary = gemini_summarizer(prompt, csv_text, os.path.basename(input_file).split(".")[0])
+    summary = gemini_summarizer(prompt, csv_text, os.path.basename(input_file).split(".")[0], prompt_type)
     print("\nSummary:\n")
     print(summary)
 
