@@ -57,6 +57,28 @@ def get_model_provider():
         else:
             print("Invalid choice. Please enter 1, 2, or 3.")
 
+
+# Define Prompt Choosing Function
+def get_prompt():
+    """
+    This function allows the user to select a prompt from a list of available prompts. 
+    It returns the selected prompt as a string.
+    Returns: str: The selected prompt.
+    """
+    while True:
+        print("\nSelect a prompt:")
+        print("1. TL;DR Summary Prompt")
+        print("2. Data Audit Prompt")
+        choice = input("Enter the number corresponding to your choice: ").strip()
+
+        if choice == '1':
+            return "tldr"
+        elif choice == '2':
+            return "audit"
+        else:
+            print("Invalid choice. Please enter 1 or 2.")
+
+
 # Main Function
 def main():
     # TODO: Implement main function logic
