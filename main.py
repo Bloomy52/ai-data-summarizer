@@ -58,26 +58,6 @@ def get_model_provider():
             print("Invalid choice. Please enter 1, 2, or 3.")
 
 
-# Define Prompt Choosing Function
-def get_prompt():
-    """
-    This function allows the user to select a prompt from a list of available prompts. 
-    It returns the selected prompt as a string.
-    Returns: str: The selected prompt.
-    """
-    while True:
-        print("\nSelect a prompt:")
-        print("1. TL;DR Summary Prompt")
-        print("2. Data Audit Prompt")
-        choice = input("Enter the number corresponding to your choice: ").strip()
-
-        if choice == '1':
-            return "tldr"
-        elif choice == '2':
-            return "audit"
-        else:
-            print("Invalid choice. Please enter 1 or 2.")
-
 
 # Main Function
 def main():
@@ -104,6 +84,14 @@ def main():
     with open(input_file, "r", encoding="utf-8", errors="replace") as infile:
         csv_text = infile.read()
     
+    prompt_type = get_prompt_type()
+    if prompt_type == "tldr":
+        print("\nYou have selected the TL;DR Summary Prompt.")
+        prompt = get_tldr_prompt()
+    elif prompt_type == "audit":
+        print("\nYou have selected the Data Audit Prompt.")
+        prompt = get_audit_prompt()
+
     prompt = get_prompt()
     check_tokens_gemini(prompt, csv_text)
 
