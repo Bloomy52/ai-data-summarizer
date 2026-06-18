@@ -13,14 +13,18 @@ def get_prompt_type():
         print("\nSelect a Summary:")
         print("1. TL;DR Summary")
         print("2. Data Overview")
+        print("3. Deep Dive Analysis")
         choice = input("Enter the number corresponding to your choice: ").strip()
 
         if choice == '1':
             return "tldr"
         elif choice == '2':
             return "overview"
+        elif choice == '3':
+            return "deepdive"
         else:
-            print("Invalid choice. Please enter 1 or 2.")
+            print("Invalid choice. Please enter 1, 2, or 3.")
+
 
 def get_prompt(prompt_type):
     """
@@ -31,8 +35,8 @@ def get_prompt(prompt_type):
         return get_tldr_prompt()
     elif prompt_type == "overview":
         return get_overview_prompt()
-
-
+    elif prompt_type == "deepdive":
+        return get_deepdive_prompt()
 
 
 # Define Prompts that can be used
@@ -99,6 +103,48 @@ def get_overview_prompt():
     """
 
     # Concatenate to final prompt
+    final_prompt = f"""{task_summary}
+    {context_information}
+    {model_instructions}
+    {response_style}"""
+
+    return final_prompt
+
+
+def get_deepdive_prompt():
+    task_summary = f"""
+    ## Task Summary:
+    {{Perform a detailed deep dive analysis of the attached CSV dataset. Go beyond surface-level description to examine distributions, patterns, relationships, and notable characteristics in the data.}}
+    """
+
+    context_information = f"""
+    ## Context Information:
+    - {{Standard CSV format with headers in the first row}}
+    - {{Columns may include numbers, text, dates, or categorical values}}
+    - {{Treat all dates as recorded historical values}}
+    - {{The dataset may cover any domain — analyze based solely on what is present}}
+    """
+
+    model_instructions = f"""
+    ## Model Instructions:
+    - {{For numeric columns: report range (min-max), central tendency (mean/median if relevant), and distribution shape}}
+    - {{For categorical/text columns: list top unique values with counts and note any dominant categories}}
+    - {{Identify any clear relationships or correlations between columns that stand out}}
+    - {{Highlight temporal patterns if dates are present, or geographic patterns if location data exists}}
+    - {{Flag outliers, unusual spikes/drops, or data quality concerns}}
+    - {{Base every observation strictly on the data provided — do not speculate beyond visible evidence}}
+    - {{Suggest 2–3 specific follow-up questions or analyses the user could explore next}}
+    """
+
+    response_style = f"""
+    ## Response style and format requirements:
+    - {{Write as if explaining the data in detail to a data-savvy coworker}}
+    - {{Use these four clear sections in order: Overview, Column Analysis, Key Patterns & Relationships, Takeaways & Next Steps}}
+    - {{Use plain text only — no Markdown. Bullets are to be noted with '-'. No headings in the final output.}}
+    - {{Keep the total response under 800 words}}
+    - {{Be specific and quantitative where possible}}
+    """
+
     final_prompt = f"""{task_summary}
     {context_information}
     {model_instructions}
