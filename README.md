@@ -1,7 +1,7 @@
 # AI Data Summarization Tool
 A Python CLI Tool that takes a dataset and uses AI to summarize the data and presents it to the user.
 
-This project is a continuation of my CS178 Final Project. You can find the repo at [Bloomy52/cs178-data-summarizer-py](https://www.github.com/Bloomy52/cs178-data-summarizer-tool)
+This project is a continuation of my CS178 Final Project. You can find the repo at [Bloomy52/cs178-data-summarizer-py](https://www.github.com/Bloomy52/cs178-data-summarizer-py)
 
 
 ## Repo Structure
