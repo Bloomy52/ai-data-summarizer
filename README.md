@@ -89,3 +89,5 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
 
 
    
+## License
+This project is licensed under the MIT License. The full license text can be found [here](LICENSE)

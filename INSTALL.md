@@ -25,7 +25,3 @@ Go to [https://git-scm.com/install/mac](https://git-scm.com/install/mac) and use
 
 ### Linux
 Go to [https://git-scm.com/install/linux](https://git-scm.com/install/linux) and follow the instructions for your specific Linux Distribution.
-
-
-## License
-This project is licensed under the MIT License. The full license text can be found [here](LICENSE)
