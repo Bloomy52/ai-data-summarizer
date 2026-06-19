@@ -41,7 +41,7 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
    git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
    cd ai-data-summarizer
    ```
-2. Initalize and Activate your Python Virtual Environment  
+2. Initialize and Activate your Python Virtual Environment  
    **Linux and macOS Users**
    ```bash
    python3 -m venv .venv
@@ -74,10 +74,10 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
    uv pip install -r requirements.txt
    ```
 
-5. Add your environment variables to the `creds.py` file.  
-> [!IMPORTANT]  
-> Make sure to rename the `creds_sample.py` file to `creds.py`. The program will not work otherwise.
-6. Run the CLI using the following command based on your OS
+4. Set up your `creds.py` file with your API key.  
+   See [CONFIGURATION.md](CONFIGURATION.md) for details.
+
+5. Run the CLI using the following command based on your OS
    **Linux & macOS Users**
    ```bash
    python3 main.py
