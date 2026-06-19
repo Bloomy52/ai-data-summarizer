@@ -25,16 +25,17 @@ ai-data-summarizer/
 ```
 
 ## Project Requirements
+> [!NOTE]
+> This only supports Gemini at the moment. Support for the Anthropic and OpenAI APIs are coming soon.
+
 - Python
 - Git
-- API Key from Google, OpenAI, or Anthropic
+- API Key from Google AI Studio
 
 See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to obtain API keys.
 
 
 ## How to Use
-> [!NOTE]
-> This only supports Gemini at the moment. Support for the Anthropic and OpenAI APIs are coming soon.
 
 1. Clone the git repository and `cd` into it
    ```bash
