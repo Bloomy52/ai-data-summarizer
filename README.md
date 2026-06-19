@@ -75,7 +75,7 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
    uv pip install -r requirements.txt
    ```
 
-4. Set up your `creds.py` file with your API key.  
+4. Rename `creds_sample.py` to `creds.py` and set up your `creds.py` file with your API key.
    See [CONFIGURATION.md](CONFIGURATION.md) for details.
 
 5. Run the CLI using the following command based on your OS. 
