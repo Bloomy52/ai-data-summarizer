@@ -57,7 +57,20 @@ def get_model_provider():
         else:
             print("Invalid choice. Please enter 1, 2, or 3.")
 
+def check_gemini_api_key():
+    if creds.GEMINI_API_KEY is None or creds.GEMINI_API_KEY == "":
+        print("Error: Gemini API key not found. Please update the creds.py file with your API key.")
+        sys.exit(1)
 
+def check_openai_api_key():
+    if creds.OPENAI_API_KEY is None or creds.OPENAI_API_KEY == "":
+        print("Error: OpenAI API key not found. Please update the creds.py file with your API key.")
+        sys.exit(1)
+
+def check_anthropic_api_key():
+    if creds.ANTHROPIC_API_KEY is None or creds.ANTHROPIC_API_KEY == "":
+        print("Error: Anthropic API key not found. Please update the creds.py file with your API key.")
+        sys.exit(1)
 
 # Main Function
 def main():
