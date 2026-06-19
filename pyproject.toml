@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai-data-summarizer"
+version = "0.1.0"
+description = "A local CLI tool that uses AI to summarize datasets."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+authors = [
+    { name = "Louie Bloomberg" }
+]
+dependencies = [
+    "google-genai",
+    "protobuf",
+    "openai",
+    "anthropic",
+    "sentencepiece",
+]
+
+[dependency-groups]
+dev = [
+    "ruff",
+    "pytest",
+]
+
+[project.scripts]
+ai-summarizer = "main:main"
+
+[project.urls]
+Homepage = "https://github.com/Bloomy52/ai-data-summarizer"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
