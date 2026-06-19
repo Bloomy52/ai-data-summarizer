@@ -22,7 +22,6 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "ruff",
     "pytest",
 ]
 
@@ -31,10 +30,3 @@ ai-summarizer = "main:main"
 
 [project.urls]
 Homepage = "https://github.com/Bloomy52/ai-data-summarizer"
-
-[tool.ruff]
-line-length = 88
-target-version = "py312"
-
-[tool.ruff.lint]
-select = ["E", "F", "I", "UP"]
