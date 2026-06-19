@@ -53,7 +53,8 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
    python -m venv .venv
    .\.venv\Scripts\Activate.ps1
    ```
-3. Install the requirements using `pip`. You can use one of the following methods depending on your OS.  
+3. **TODO: Move to a different file and then implement `pyproject.toml` usage instructions**   
+Install the requirements using `pip`. You can use one of the following methods depending on your OS.  
    **Linux & macOS Users**
    ```bash
    python3 -m pip install -r requirements.txt
