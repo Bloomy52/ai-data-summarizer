@@ -78,7 +78,7 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
 4. Set up your `creds.py` file with your API key.  
    See [CONFIGURATION.md](CONFIGURATION.md) for details.
 
-5. Run the CLI using the following command based on your OS
+5. Run the CLI using the following command based on your OS. 
    **Linux & macOS Users**
    ```bash
    python3 main.py
