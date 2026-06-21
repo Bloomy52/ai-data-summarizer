@@ -33,6 +33,3 @@ Homepage = "https://github.com/Bloomy52/ai-data-summarizer"
 
 [tool.hatch.build.targets.wheel]
 packages = ["."]
-exclude = [
-    "creds.py",
-]
