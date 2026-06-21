@@ -49,7 +49,7 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
    source .venv/bin/activate
    ```
    **Windows Users**
-   ```cmd
+   ```pwsh
    python -m venv .venv
    .\.venv\Scripts\Activate.ps1
    ```
@@ -57,29 +57,29 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
 Install the requirements using `pip`. You can use one of the following methods depending on your OS.  
    **Linux & macOS Users**
    ```bash
-   python3 -m pip install -r requirements.txt
+   python3 -m pip install .
    ```
    **Windows Users**
-   ```cmd
-   python -m pip install -r requirements.txt
+   ```pwsh
+   python -m pip install .
    ```
 
    You can also use `uv` if you would like. If you would like to use uv, use the following commands:
    **Linux & macOS Users**
    ```bash
    python3 -m pip install uv
-   uv pip install -r requirements.txt
+   uv pip install .
    ```
    **Windows Users**
-   ```cmd
+   ```pwsh
    python -m pip install uv
-   uv pip install -r requirements.txt
+   uv pip install .
    ```
 
 4. Rename `creds_sample.py` to `creds.py` and set up your `creds.py` file with your API key.
    See [CONFIGURATION.md](CONFIGURATION.md) for details.
 
-5. Run the CLI using the following command based on your OS. 
+5. Run the CLI using the following command based on your OS.   
    **Linux & macOS Users**
    ```bash
    python3 main.py
