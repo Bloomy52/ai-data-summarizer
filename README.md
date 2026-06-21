@@ -38,56 +38,43 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
 ## How to Use
 
 1. Clone the git repository and `cd` into it
-   ```bash
+```bash
    git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
    cd ai-data-summarizer
-   ```
-2. Initialize and Activate your Python Virtual Environment  
-   **Linux and macOS Users**
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-   **Windows Users**
-   ```pwsh
-   python -m venv .venv
-   .\.venv\Scripts\Activate.ps1
-   ```
-3. **TODO: Move to a different file and then implement `pyproject.toml` usage instructions**   
-Install the requirements using `pip`. You can use one of the following methods depending on your OS.  
-   **Linux & macOS Users**
-   ```bash
-   python3 -m pip install .
-   ```
-   **Windows Users**
-   ```pwsh
-   python -m pip install .
-   ```
+```
 
-   You can also use `uv` if you would like. If you would like to use uv, use the following commands:
-   **Linux & macOS Users**
-   ```bash
-   python3 -m pip install uv
-   uv pip install .
-   ```
-   **Windows Users**
-   ```pwsh
-   python -m pip install uv
-   uv pip install .
-   ```
-
-4. Rename `creds_sample.py` to `creds.py` and set up your `creds.py` file with your API key.
+2. Rename `creds_sample.py` to `creds.py` and add your API key.  
    See [CONFIGURATION.md](CONFIGURATION.md) for details.
 
-5. Run the CLI using the following command based on your OS.   
+3. Install dependencies and run the tool using one of the two options below.
+
+   ### Option A: Install as a package (recommended)
+```bash
+   pip install .
+```
+   Then run:
+```bash
+   ai-summarizer
+```
+
+   ### Option B: Run without installing
    **Linux & macOS Users**
-   ```bash
+```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   python3 -m pip install -r requirements.txt
    python3 main.py
-   ```
+```
    **Windows Users**
-   ```cmd
+```powershell
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   python -m pip install -r requirements.txt
    python main.py
-   ```
+```
+
+   > [!NOTE]
+   > Both options run the same underlying code. Option A installs `ai-summarizer` as a command while Option B runs it directly via `main.py` inside a virtual environment.
 
 
    
