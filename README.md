@@ -63,15 +63,19 @@ ai-data-summarizer/
 ├── prompt.py               # Prompt templates and management
 ├── tokenizer.py            # Token counting and management utilities
 ├── creds_sample.py         # Sample credentials file (rename to creds.py)
+├── apicheck.py             # Checks API variables to prevent early issues
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
+├── INSTALL.md              # Project installation documentation
+├── CONFIGURATION.md        # Project configuration documentation
 ├── LICENSE                 # MIT License
 ├── .gitignore              # Git ignore rules
+├── pyproject.toml          # Python project application configuration files
 ├── .vscode/
 │   └── settings.json       # VSCode configuration
 └── examples/
-    ├── CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv  # Sample dataset
-    └── CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt  # Sample summary
+    ├── CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv                 # Sample dataset
+    └── OverviewPrompt_CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt  # Sample summary
 ```
 
 ## Project Requirements
