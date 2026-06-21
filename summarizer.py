@@ -2,7 +2,6 @@
 # SPDX-License-Identifier: MIT
 
 # Import Statements
-import creds
 import os
 import sys
 from zoneinfo import ZoneInfo
@@ -50,7 +49,7 @@ def write_outfile(output, filename, prompt_type, model_id):
 def gemini_summarizer(prompt, text, filename, prompt_type):
     MODEL_ID = "gemini-3.5-flash"
     try:
-        client = genai.Client(api_key=creds.GEMINI_API_KEY)
+        client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
         response = client.models.generate_content(
             model=MODEL_ID,
