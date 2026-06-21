@@ -21,6 +21,7 @@ GEMINI_FREE_TIER = True
 
 > [!NOTE]
 > This project defaults to the Gemini Free Tier being `True`. If you are paying for the Gemini API Key, please change the `GEMINI_FREE_TIER` flag to `False` to remove restrictions.
+The `GEMINI_FREE_TIER` flag restricts usage to be under 250,000 Tokens per Minute (TPM) to prevent errors. This flag DOES NOT Restrict the Rate per Minute (RPM) and the Rate per Day (RPD) Restrictions. If you are hitting these limits consistently, consider upgrading to a paid API plan or reducing the size of your CSV.
 
 ## Available Keys
 
