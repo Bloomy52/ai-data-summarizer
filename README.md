@@ -30,7 +30,7 @@ ai-data-summarizer/
 
 - Python
 - Git
-- API Key from Google AI Studio
+- Gemini API Key from Google AI Studio
 
 See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to obtain API keys.
 
