@@ -97,7 +97,7 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
    cd ai-data-summarizer
 ```
 
-2. Rename `creds_sample.py` to `creds.py` and add your API key.  
+2. Rename `.env.sample` to `.env` and add your API key.  
    See [CONFIGURATION.md](CONFIGURATION.md) for details.
 
 3. Install dependencies and run the tool using one of the two options below.

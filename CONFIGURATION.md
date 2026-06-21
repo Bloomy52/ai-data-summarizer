@@ -1,22 +1,22 @@
 # Configuration
 
-This project uses a `creds.py` file to store your API key(s).
+This project uses a `.env` file to store your API key(s).
 
 
 > [!IMPORTANT]
-> `creds.py` is included in `.gitignore` and should never be committed to version control. Keep your API keys private.
+> `.env` is included in `.gitignore` and should never be committed to version control. Keep your API keys private.
 
 
 ## Setup
 
-1. Rename `creds_sample.py` to `creds.py`.
-2. Open `creds.py` and fill in the API key for the provider you plan to use.
+1. Rename `.env.sample` to `.env`.
+2. Open `.env` and fill in the API key for the provider you plan to use.
 
-```python
-GEMINI_API_KEY = ""
-OPENAI_API_KEY = ""
-ANTHROPIC_API_KEY = ""
-GEMINI_FREE_TIER = True
+```dotenv
+GEMINI_API_KEY=""
+OPENAI_API_KEY=""
+ANTHROPIC_API_KEY=""
+GEMINI_FREE_TIER=True
 ```
 
 > [!NOTE]
