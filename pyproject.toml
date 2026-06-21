@@ -30,3 +30,9 @@ ai-summarizer = "main:main"
 
 [project.urls]
 Homepage = "https://github.com/Bloomy52/ai-data-summarizer"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+exclude = [
+    "creds.py",
+]
