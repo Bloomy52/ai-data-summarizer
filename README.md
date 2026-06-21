@@ -4,7 +4,7 @@ A Python CLI Tool that takes a dataset and uses AI to summarize the data and pre
 This project is a continuation of my CS178 Final Project. You can find the repo at [Bloomy52/cs178-data-summarizer-py](https://www.github.com/Bloomy52/cs178-data-summarizer-py)
 
 ## Example
-The example used here is the number of daily riders from the Addison 'L' Stop on the Chicago Transit Authrotiy's (CTA) Red Line using the Data Overview prompt. More information about the original dataset can be found at the bottom of the README. Other prompts will be added to the example folder as well.
+The example used here is the number of daily riders from the Addison 'L' Stop on the Chicago Transit Authority's (CTA) Red Line using the Data Overview prompt. More information about the original dataset can be found at the bottom of the README. Other prompts will be added to the example folder as well.
 
 **CSV File Structure**
 ```csv
