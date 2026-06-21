@@ -3,6 +3,56 @@ A Python CLI Tool that takes a dataset and uses AI to summarize the data and pre
 
 This project is a continuation of my CS178 Final Project. You can find the repo at [Bloomy52/cs178-data-summarizer-py](https://www.github.com/Bloomy52/cs178-data-summarizer-py)
 
+## Example
+The example used here is the number of daily riders from the Addison 'L' Stop on the Chicago Transit Authrotiy's (CTA) Red Line using the Data Overview prompt. More information about the original dataset can be found at the bottom of the README. Other prompts will be added to the example folder as well.
+
+**CSV File Structure**
+```csv
+"date","daytype","rides"
+"01/01/2001","U","1,227"
+"01/02/2001","W","3,937"
+"01/03/2001","W","4,329"
+"01/04/2001","W","4,607"
+"01/05/2001","W","4,666"
+```
+* `date` is when the data was recorded
+* `daytype` is the type of day of which the data was recorded
+   - `W` is a weekday
+   - `A` is a Saturday
+   - `U` is Sunday/Holidays
+* `rides` is the number of riders recorded on a given day
+
+```bash
+ai-summarizer
+```
+```text
+Enter the path to your CSV file: examples/CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv
+
+Please Select a Summary:
+1. TL;DR Summary
+2. Data Overview
+3. Deep Dive Analysis
+Enter the number corresponding to your choice: 2
+Your input text has 195174 tokens, which is within the free tier limit for Gemini.
+Would you like to continue? (Y/n)
+Y
+
+Summary:
+
+Overview:
+
+I reviewed the dataset you shared. It contains daily transit ride tracking data spanning over 25 years, from 
+January 1, 2001, to March 31, 2026. This extensive daily record captures long-term ridership trends and reveals 
+how public transit usage fluctuates across weekdays, weekends, and holidays, alongside the long-term impact 
+of major external disruptions.
+
+```
+The rest of the example can be found in the `examples` folder labeled [OverviewPrompt_CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt](examples/OverviewPrompt_CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt)
+
+Summaries save to the `summaries` folder. It will be automatically be created with the subfolder with the prompt and a header in the file.
+
+> [!TIP]
+> The capital `Y` means that it is the default option. You can click the `Enter`/`Return` key as a shortcut.
 
 ## Repo Structure
 The structure of this git repository is as follows:
@@ -80,3 +130,5 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
    
 ## License
 This project is licensed under the MIT License. The full license text can be found [here](LICENSE)
+
+*The original data came from the City of Chicago's Data Portal.
