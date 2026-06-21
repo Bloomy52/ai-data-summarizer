@@ -99,7 +99,7 @@ def get_overview_prompt():
     - {{Write as if explaining the data to a coworker}}
     - {{Use three sections: overview, column breakdown, and key takeaways}}
     - {{Limit the response to 500 words or less}}
-    - {{Use plain text only — no Markdown. Bullets are to be noted with '-'. No headings.}}
+    - {{Use plain text only — no Markdown. Bullets are to be noted with '-'. No Markdown headings.}}
     """
 
     # Concatenate to final prompt
@@ -140,7 +140,7 @@ def get_deepdive_prompt():
     ## Response style and format requirements:
     - {{Write as if explaining the data in detail to a data-savvy coworker}}
     - {{Use these four clear sections in order: Overview, Column Analysis, Key Patterns & Relationships, Takeaways & Next Steps}}
-    - {{Use plain text only — no Markdown. Bullets are to be noted with '-'. No headings in the final output.}}
+    - {{Use plain text only — no Markdown. Bullets are to be noted with '-'. No Markdown headings in the final output.}}
     - {{Keep the total response under 800 words}}
     - {{Be specific and quantitative where possible}}
     """
