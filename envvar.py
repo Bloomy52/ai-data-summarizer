@@ -35,7 +35,10 @@ def read_env():
                     os.environ[key.strip()] = value
     return None
 
-def set_api_keys(model_provider_choice, env_path):
+def set_api_keys(model_provider_choice):
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    env_path = os.path.join(base_dir, ".env")   
+     
     # Select the appropriate API key based on the model provider choice
     if model_provider_choice == 1:
         api_key_name = "GEMINI_API_KEY"
