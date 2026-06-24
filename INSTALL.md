@@ -25,10 +25,3 @@ Go to [https://git-scm.com/install/mac](https://git-scm.com/install/mac) and use
 
 ### Linux
 Go to [https://git-scm.com/install/linux](https://git-scm.com/install/linux) and follow the instructions for your specific Linux Distribution.
-
-## uv
-This project utilizes the [uv](https://docs.astral.sh/uv/) Python Package and Project Manager. You can install it from PyPI with the following command.
-```bash
-pip install uv
-```
-More installation information and options are available at [https://docs.astral.sh/uv/getting-started/installation/](https://docs.astral.sh/uv/getting-started/installation/).
