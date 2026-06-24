@@ -88,6 +88,7 @@ Summaries save to the `summaries` folder. It will be created automatically with 
 > This only supports Gemini at the moment. Support for the Anthropic and OpenAI APIs are coming soon.
 
 - Python
+- uv
 - Git
 - Gemini API Key from Google AI Studio
 
