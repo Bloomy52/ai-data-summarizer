@@ -9,6 +9,16 @@ import anthropic
 from google import genai
 from openai import OpenAI
 
+def check_api_keys(provider_choice):
+    if provider_choice == 1:
+        check_for_gemini_api_key()
+        check_valid_gemini_api_key()
+    elif provider_choice == 2:
+        check_for_openai_api_key()
+        check_valid_openai_api_key()
+    elif provider_choice == 3:
+        check_for_anthropic_api_key()
+        check_valid_anthropic_api_key()
 
 def check_for_gemini_api_key():
     if os.getenv("GEMINI_API_KEY") is None or os.getenv("GEMINI_API_KEY") == "":
