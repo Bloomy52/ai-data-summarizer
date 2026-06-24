@@ -25,10 +25,12 @@ The `GEMINI_FREE_TIER` flag restricts usage to be under 250,000 Tokens per Minut
 
 ## Available Keys
 
-| Variable | Provider | Status |
+| Variable | Provider | Default Model | Status |
 |---|---|---|
-| `GEMINI_API_KEY` | Google Gemini | Supported |
-| `OPENAI_API_KEY` | OpenAI | Coming soon |
-| `ANTHROPIC_API_KEY` | Anthropic Claude | Coming soon |
+| `GEMINI_API_KEY` | Google Gemini | `gemini-3.5-flash` | Supported |
+| `OPENAI_API_KEY` | OpenAI | `gpt-5.4-mini` | Coming soon |
+| `ANTHROPIC_API_KEY` | Anthropic Claude | `claude-haiku-4-5` | Coming soon |
+
+You can change the default model in [summarizer.py](summarizer.py) under the specific summarization function.
 
 See [INSTALL.md](INSTALL.md) for instructions on obtaining API keys from each provider.
