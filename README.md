@@ -95,8 +95,19 @@ Summaries save to the `summaries` folder. It will be created automatically with 
 See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to obtain API keys.
 
 
-## How to Use
+## How to Use/Installation
+There are three options for running this program. Please choose one of these options.
 
+### Option A: Install as a package (recommended)
+```bash
+   uv tool install git+https://www.github.com/Bloomy52/ai-data-summarizer.git
+```
+   Then run:
+```bash
+   ai-summarizer
+```
+
+### Option B: Run without installing
 1. Clone the git repository and `cd` into it
 ```bash
    git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
@@ -106,35 +117,40 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
 2. Rename `.env.sample` to `.env` and add your API key.  
    See [CONFIGURATION.md](CONFIGURATION.md) for details.
 
-3. Install dependencies and run the tool using one of the two options below.
-
-   ### Option A: Install as a package (recommended)
+3. Run the tool with uv
 ```bash
-   pipx install .
-```
-   Then run:
-```bash
-   ai-summarizer
+uv run main.py
 ```
 
-   ### Option B: Run without installing
-   **Linux & macOS Users**
+### Option C: Manually run without installing 
+1. Clone the git repository and `cd` into it
 ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   python3 -m pip install -r requirements.txt
-   python3 main.py
+   git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
+   cd ai-data-summarizer
 ```
-   **Windows Users**
+
+2. Rename `.env.sample` to `.env` and add your API key.  
+   See [CONFIGURATION.md](CONFIGURATION.md) for details.
+
+3. Install dependencies and run the tool according to your OS
+
+**Linux & macOS Users**
+```bash
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
+python3 main.py
+```
+**Windows Users**
 ```powershell
-   python -m venv .venv
-   .\.venv\Scripts\Activate.ps1
-   python -m pip install -r requirements.txt
-   python main.py
+uv venv
+.\.venv\Scripts\Activate.ps1
+uv pip install -r requirements.txt
+python main.py
 ```
 
-   > [!NOTE]
-   > Both options run the same underlying code. Option A installs `ai-summarizer` as a command while Option B runs it directly via `main.py` inside a virtual environment. This program only works in this directory at the current moment.
+> [!NOTE]
+> All three options run the same underlying code. Option A installs `ai-summarizer` as a command while Options B & C run it directly via `main.py` inside a virtual environment. 
 
 
    
