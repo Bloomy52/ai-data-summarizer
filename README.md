@@ -6,6 +6,30 @@ This project is a continuation of my CS178 Final Project. You can find the repo 
 ### Why This Exists
 I created this project because I found that it is difficult to understand what an underlying dataset is and what it entails without reading and understanding the full dataset. I found that using a Large Language Model (LLM) to summarize the dataset made the dataset more approachable since I had a general understanding of what the dataset was and some features about said dataset I was analyzing. I specifically crafted the summary templates so they would help the user understand the dataset and its features. It can also give you a heads up if there are any concerns or anamolies before you start fully analyzing the data to prevent issues and to guide the user on the right path to analysis. 
 
+## Repo Structure
+The structure of this git repository is as follows:
+```text
+ai-data-summarizer/
+├── main.py                 # CLI entry point and main application logic
+├── summarizer.py           # Core data summarization functionality
+├── prompt.py               # Prompt templates and management
+├── tokenizer.py            # Token counting and management utilities
+├── creds_sample.py         # Sample credentials file (rename to creds.py)
+├── apicheck.py             # Checks API variables to prevent early issues
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+├── INSTALL.md              # Project installation documentation
+├── CONFIGURATION.md        # Project configuration documentation
+├── LICENSE                 # MIT License
+├── .gitignore              # Git ignore rules
+├── pyproject.toml          # Python project application configuration files
+├── .vscode/
+│   └── settings.json       # VSCode configuration
+└── examples/
+    ├── CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv                 # Sample dataset
+    └── OverviewPrompt_CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt  # Sample summary
+```
+
 ## Example
 The example used here is the number of daily riders from the Addison 'L' Stop on the Chicago Transit Authority's (CTA) Red Line using the Data Overview prompt. More information about the original dataset can be found at the bottom of the README. Other prompts will be added to the example folder as well.
 
@@ -57,29 +81,6 @@ Summaries save to the `summaries` folder. It will be created automatically with 
 > [!TIP]
 > The capital `Y` means that it is the default option. You can click the `Enter`/`Return` key as a shortcut.
 
-## Repo Structure
-The structure of this git repository is as follows:
-```text
-ai-data-summarizer/
-├── main.py                 # CLI entry point and main application logic
-├── summarizer.py           # Core data summarization functionality
-├── prompt.py               # Prompt templates and management
-├── tokenizer.py            # Token counting and management utilities
-├── creds_sample.py         # Sample credentials file (rename to creds.py)
-├── apicheck.py             # Checks API variables to prevent early issues
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-├── INSTALL.md              # Project installation documentation
-├── CONFIGURATION.md        # Project configuration documentation
-├── LICENSE                 # MIT License
-├── .gitignore              # Git ignore rules
-├── pyproject.toml          # Python project application configuration files
-├── .vscode/
-│   └── settings.json       # VSCode configuration
-└── examples/
-    ├── CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv                 # Sample dataset
-    └── OverviewPrompt_CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt  # Sample summary
-```
 
 ## Project Requirements
 > [!NOTE]
