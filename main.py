@@ -59,6 +59,7 @@ def get_model_provider():
 # Main Function
 def main():
     # TODO: Implement main function logic
+    read_env()  # Read the .env file to set environment variables
     # Main Interactive Loop:
     # Get input file
     while True:
