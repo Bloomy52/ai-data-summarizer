@@ -133,7 +133,7 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
 ```
 
    > [!NOTE]
-   > Both options run the same underlying code. Option A installs `ai-summarizer` as a command while Option B runs it directly via `main.py` inside a virtual environment.
+   > Both options run the same underlying code. Option A installs `ai-summarizer` as a command while Option B runs it directly via `main.py` inside a virtual environment. This program only works in this directory at the current moment.
 
 
    
