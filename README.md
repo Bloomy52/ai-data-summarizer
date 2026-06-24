@@ -14,7 +14,7 @@ ai-data-summarizer/
 ├── summarizer.py           # Core data summarization functionality
 ├── prompt.py               # Prompt templates and management
 ├── tokenizer.py            # Token counting and management utilities
-├── creds_sample.py         # Sample credentials file (rename to creds.py)
+├── .env.sample             # Sample credentials file (rename to .env)
 ├── apicheck.py             # Checks API variables to prevent early issues
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
