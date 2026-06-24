@@ -107,7 +107,7 @@ There are three options for running this program. Please choose one of these opt
    ai-summarizer
 ```
 
-### Option B: Run without installing
+### Option B: Run without installing using uv
 1. Clone the git repository and `cd` into it
 ```bash
    git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
