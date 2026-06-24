@@ -9,6 +9,8 @@ import anthropic
 from google import genai
 from openai import OpenAI
 
+from envvar import *
+
 def check_api_keys(provider_choice):
     if provider_choice == 1:
         check_for_gemini_api_key()
@@ -22,8 +24,11 @@ def check_api_keys(provider_choice):
 
 def check_for_gemini_api_key():
     if os.getenv("GEMINI_API_KEY") is None or os.getenv("GEMINI_API_KEY") == "":
-        print("Error: Gemini API key not found. Please update the .env file with your API key.")
-        sys.exit(1)
+        print("Error: Gemini API key not found. Would you like to set it now? (Y/n)")
+        if input().lower() != 'n':
+            set_api_keys(1)
+        else:
+            sys.exit(1)
     else:
         return True
     
@@ -40,8 +45,11 @@ def check_valid_gemini_api_key():
 
 def check_for_openai_api_key():
     if os.getenv("OPENAI_API_KEY") is None or os.getenv("OPENAI_API_KEY") == "":
-        print("Error: OpenAI API key not found. Please update the .env file with your API key.")
-        sys.exit(1)
+        print("Error: OpenAI API key not found. Would you like to set it now? (Y/n)")
+        if input().lower() != 'n':
+            set_api_keys(2)
+        else:
+            sys.exit(1)
     else:
         return True
     
@@ -58,8 +66,11 @@ def check_valid_openai_api_key():
 
 def check_for_anthropic_api_key():
     if os.getenv("ANTHROPIC_API_KEY") is None or os.getenv("ANTHROPIC_API_KEY") == "":
-        print("Error: Anthropic API key not found. Please update the .env file with your API key.")
-        sys.exit(1)
+        print("Error: Anthropic API key not found. Would you like to set it now? (Y/n)")
+        if input().lower() != 'n':
+            set_api_keys(3)
+        else:
+            sys.exit(1)
     else:
         return True
     
