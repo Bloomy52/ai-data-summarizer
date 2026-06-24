@@ -52,7 +52,7 @@ of major external disruptions.
 ```
 The rest of the example can be found in the `examples` folder labeled [OverviewPrompt_CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt](examples/OverviewPrompt_CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt)
 
-Summaries save to the `summaries` folder. It will be automatically be created with the subfolder with the prompt and a header in the file.
+Summaries save to the `summaries` folder. It will be created automatically with the subfolder with the prompt and a header in the file.
 
 > [!TIP]
 > The capital `Y` means that it is the default option. You can click the `Enter`/`Return` key as a shortcut.
