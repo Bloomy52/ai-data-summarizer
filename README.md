@@ -157,4 +157,4 @@ python main.py
 ## License
 This project is licensed under the MIT License. The full license text can be found [here](LICENSE)
 
-*The original data came from the City of Chicago's Data Portal. You can find the original dataset link [here](https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Daily-Totals/5neh-572f/about_data)
+*The original CTA example dataset came from the City of Chicago's Data Portal. You can find the original dataset link [here](https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Daily-Totals/5neh-572f/about_data)
