@@ -88,7 +88,6 @@ Summaries save to the `summaries` folder. It will be created automatically with 
 > This only supports Gemini at the moment. Support for the Anthropic and OpenAI APIs are coming soon.
 
 - Python
-- uv
 - Git
 - Gemini API Key from Google AI Studio
 
@@ -110,7 +109,7 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
 
    ### Option A: Install as a package (recommended)
 ```bash
-   pip install .
+   pipx install .
 ```
    Then run:
 ```bash
