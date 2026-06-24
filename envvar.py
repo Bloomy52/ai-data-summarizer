@@ -6,6 +6,8 @@
 import os
 import getpass
 
+
+
 def create_env():
     # Create a .env file if it doesn't exist
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -38,7 +40,7 @@ def read_env():
 def set_api_keys(model_provider_choice):
     base_dir = os.path.dirname(os.path.abspath(__file__))
     env_path = os.path.join(base_dir, ".env")   
-     
+
     # Select the appropriate API key based on the model provider choice
     if model_provider_choice == 1:
         api_key_name = "GEMINI_API_KEY"
@@ -48,7 +50,6 @@ def set_api_keys(model_provider_choice):
         api_key_name = "ANTHROPIC_API_KEY"
 
     if os.getenv(api_key_name):  # Check to see if environment variables are already in RAM
-
         return True
 
     read_env()  # Read the .env file to set environment variables
