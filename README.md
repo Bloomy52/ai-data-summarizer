@@ -25,6 +25,7 @@ ai-data-summarizer/
 ├── pyproject.toml          # Python project application configuration files
 ├── .vscode/
 │   └── settings.json       # VSCode configuration
+├── summaries/              # Summary output folder -- gets created upon first output summary         
 └── examples/
     ├── CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv                 # Sample dataset
     └── OverviewPrompt_CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt  # Sample summary
