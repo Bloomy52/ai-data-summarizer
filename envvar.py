@@ -25,7 +25,7 @@ def create_env():
             env_file.write("GEMINI_API_KEY=\n")
             env_file.write("OPENAI_API_KEY=\n")
             env_file.write("ANTHROPIC_API_KEY=\n")
-            env_file.write("GEMINI_FREE_TIER=True\n") # TODO: Remove Free Tier Flag and make that hardcoded
+            env_file.write("GEMINI_FREE_TIER=True\n") # TODO: Maybe Remove Free Tier Flag and make that hardcoded
     
     return None
 
