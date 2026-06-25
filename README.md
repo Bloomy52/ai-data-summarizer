@@ -100,18 +100,18 @@ There are three options for running this program. Please choose one of these opt
 
 ### Option A: Install as a package (recommended)
 ```bash
-   uv tool install git+https://www.github.com/Bloomy52/ai-data-summarizer.git
+uv tool install git+https://www.github.com/Bloomy52/ai-data-summarizer.git
 ```
    Then run:
 ```bash
-   ai-summarizer
+ai-summarizer
 ```
 
 ### Option B: Run without installing using uv
 1. Clone the git repository and `cd` into it
 ```bash
-   git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
-   cd ai-data-summarizer
+git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
+cd ai-data-summarizer
 ```
 
 2. Rename `.env.sample` to `.env` and add your API key.  
@@ -125,8 +125,8 @@ uv run main.py
 ### Option C: Manual Setup & Run without installing
 1. Clone the git repository and `cd` into it
 ```bash
-   git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
-   cd ai-data-summarizer
+git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
+cd ai-data-summarizer
 ```
 
 2. Rename `.env.sample` to `.env` and add your API key.  
