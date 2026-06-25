@@ -7,6 +7,12 @@ import os
 import getpass
 
 
+def _strip_quotes(value):
+    value = value.strip()
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in ('"', "'"):
+        return value[1:-1]
+    return value
+
 
 def create_env():
     # Create a .env file if it doesn't exist
@@ -34,6 +40,7 @@ def read_env():
             for line in env_file:
                 if "=" in line:
                     key, value = line.strip().split("=", 1)
+                    value = _strip_quotes(value)
                     os.environ[key.strip()] = value
     return None
 
@@ -57,6 +64,7 @@ def set_api_keys(model_provider_choice):
     # If environment variable is not in .env nor in RAM, prompt the user to enter the API key and save it to .env securely
     if not os.getenv(api_key_name):
         api_key = getpass.getpass(prompt=f"Enter your {api_key_name} (or leave blank to skip): ", stream=None, echo_char="*").strip()
+        api_key = _strip_quotes(api_key)  # Allow the user to paste a key wrapped in quotes
         if api_key:
             os.environ[api_key_name] = api_key
             with open(env_path, "a") as env_file:
