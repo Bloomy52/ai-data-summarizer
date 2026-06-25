@@ -41,6 +41,7 @@ def read_env():
                 if "=" in line:
                     key, value = line.strip().split("=", 1)
                     value = _strip_quotes(value)
+                    value = _strip_quotes(value)
                     os.environ[key.strip()] = value
     return None
 
@@ -64,6 +65,7 @@ def set_api_keys(model_provider_choice):
     # If environment variable is not in .env nor in RAM, prompt the user to enter the API key and save it to .env securely
     if not os.getenv(api_key_name):
         api_key = getpass.getpass(prompt=f"Enter your {api_key_name} (or leave blank to skip): ", stream=None, echo_char="*").strip()
+        api_key = _strip_quotes(api_key)  # Allow the user to paste a key wrapped in quotes
         api_key = _strip_quotes(api_key)  # Allow the user to paste a key wrapped in quotes
         if api_key:
             os.environ[api_key_name] = api_key
