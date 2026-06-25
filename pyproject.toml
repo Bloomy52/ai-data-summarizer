@@ -18,6 +18,9 @@ dependencies = [
     "openai",
     "anthropic",
     "sentencepiece",
+    "pandas",
+    "openpyxl",
+    "xlrd",
 ]
 
 [dependency-groups]
