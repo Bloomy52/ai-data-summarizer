@@ -65,3 +65,44 @@ def gemini_summarizer(prompt, text, filename, prompt_type):
     
     write_outfile(output, filename, prompt_type, MODEL_ID)
     return output
+
+
+def openai_summarizer(prompt, text, filename, prompt_type):
+    MODEL_ID = "gpt-5.4-mini"
+    try:
+        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+        response = client.response.create(
+            model=MODEL_ID,
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": prompt + "\n\n" + text},
+            ],
+        )
+        output = response.choices[0].message.content
+    except Exception as e:
+        print(f"Error generating summary: {e}")
+        sys.exit(1)
+    
+    write_outfile(output, filename, prompt_type, MODEL_ID)
+    return output
+
+def anthropic_summarizer(prompt, text, filename, prompt_type):
+    MODEL_ID = "claude-haiku-4-5"
+    try:
+        client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+
+        response = client.completions.create(
+            model=MODEL_ID,
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": prompt + "\n\n" + text},
+            ],
+        )
+        output = response.completion
+    except Exception as e:
+        print(f"Error generating summary: {e}")
+        sys.exit(1)
+    
+    write_outfile(output, filename, prompt_type, MODEL_ID)
+    return output
