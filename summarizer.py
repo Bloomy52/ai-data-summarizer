@@ -61,7 +61,7 @@ def gemini_summarizer(prompt, text, filename, prompt_type):
         output = response.text
     except Exception as e:
         print(f"Error generating summary: {e}")
-        return None
+        sys.exit(1)
     
     write_outfile(output, filename, prompt_type, MODEL_ID)
     return output
