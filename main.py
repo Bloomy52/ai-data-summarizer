@@ -1,4 +1,6 @@
-# Main code file for the AI Data Summarizer project
+# Main Code File
+# main.py
+# Code file containing the main function and the main logic for the AI Data Summarizer program.
 # SPDX-License-Identifier: MIT
 
 # Import Statements

@@ -1,4 +1,5 @@
-# apickeck.py
+# API Key Checker
+# apicheck.py
 # This file contains functions to check for API keys and token counts for the different model providers.
 # SPDX-License-Identifier: MIT
 
