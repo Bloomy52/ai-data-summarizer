@@ -13,6 +13,7 @@ from tokenizer import *
 from prompt import *
 from apicheck import *
 from envvar import *
+from fileloader import *
 
 # Function Definitions
 
@@ -67,20 +68,51 @@ def main():
 
         # Remove quotes if user wrapped path in quotes
         input_file = filepath.strip('"\'')
+        
 
         if not os.path.exists(input_file):
             print(f"Error: File '{input_file}' not found.  Please try again.")
             continue
 
-        if not input_file.lower().endswith('.csv'):
-            print("Warning: file extension is not .csv. Continue anyway? (y/N)")
+        if not input_file.lower().endswith('.csv') and not input_file.lower().endswith('.xlsx') and not input_file.lower().endswith('.xls'):
+            print("Warning: file extension is not .csv, .xlsx, or .xls. Continue anyway? (y/N)")
             if input().lower() != 'y':
                 continue
 
         break
 
-    with open(input_file, "r", encoding="utf-8", errors="replace") as infile:
-        csv_text = infile.read()
+    file_type = detect_file_type(input_file)
+    if file_type == "excel":
+        sheet_names = get_sheet_names(input_file)
+        if sheet_names is None:
+            print(f"Error: Could not retrieve sheet names from Excel file '{input_file}'.")
+            sys.exit(1)
+
+        print("\nAvailable sheets:")
+        for idx, sheet in enumerate(sheet_names):
+            print(f"{idx + 1}. {sheet}")
+
+        while True:
+            sheet_choice = input("Enter the number of the sheet you want to load: ").strip()
+            try:
+                sheet_index = int(sheet_choice) - 1
+                if 0 <= sheet_index < len(sheet_names):
+                    selected_sheet = sheet_names[sheet_index]
+                    break
+                else:
+                    print("Invalid choice. Please enter a valid number.")
+            except ValueError:
+                print("Invalid input. Please enter a number.")
+
+        # Load the selected sheet as CSV text
+        try:
+            dataframe = pd.read_excel(input_file, sheet_name=selected_sheet)
+            csv_text = dataframe.to_csv(index=False)
+        except Exception as e:
+            print(f"Error: Could not read the selected sheet '{selected_sheet}' from Excel file '{input_file}'. Details: {e}")
+            sys.exit(1)
+
+    csv_text = load_file(input_file)  # Load the file (CSV or Excel) and get its content as CSV text
     
 
     model_provider_choice = 1 # get_model_provider()
