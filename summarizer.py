@@ -74,14 +74,14 @@ def openai_summarizer(prompt, text, filename, prompt_type):
     try:
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-        response = client.response.create(
+        response = client.responses.create(
             model=MODEL_ID,
             messages=[
                 {"role": "system", "content": "You are a helpful assistant."},
                 {"role": "user", "content": prompt + "\n\n" + text},
             ],
         )
-        output = response.choices[0].message.content
+        output = response.output_text
     except Exception as e:
         print(f"Error generating summary: {e}")
         sys.exit(1)
