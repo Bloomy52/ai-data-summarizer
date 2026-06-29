@@ -47,6 +47,39 @@ def get_sheet_names(filepath):
 
     return excel_file.sheet_names
 
+def choose_sheet(filepath, file_type):
+    if file_type == "excel":
+        sheet_names = get_sheet_names(filepath)
+        if sheet_names is None:
+            print(f"Error: Could not retrieve sheet names from Excel file '{filepath}'.")
+            sys.exit(1)
+
+        print("\nAvailable sheets:")
+        for idx, sheet in enumerate(sheet_names):
+            print(f"{idx + 1}. {sheet}")
+
+        while True:
+            sheet_choice = input("Enter the number of the sheet you want to load: ").strip()
+            try:
+                sheet_index = int(sheet_choice) - 1
+                if 0 <= sheet_index < len(sheet_names):
+                    selected_sheet = sheet_names[sheet_index]
+                    break
+                else:
+                    print("Invalid choice. Please enter a valid number.")
+            except Exception as e:
+                print(f"Invalid input. Please enter a number. Details: {e}")
+                sys.exit(1)
+
+        # Load the selected sheet as CSV text
+        try:
+            dataframe = pd.read_excel(filepath, sheet_name=selected_sheet)
+            csv_text = dataframe.to_csv(index=False)
+            return csv_text
+        except Exception as e:
+            print(f"Error: Could not read the selected sheet '{selected_sheet}' from Excel file '{filepath}'. Details: {e}")
+            sys.exit(1)
+
 
 def load_csv(filepath):
     """
