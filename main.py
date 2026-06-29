@@ -85,7 +85,7 @@ def main():
 
     file_type = detect_file_type(input_file)
     
-    csv_text = load_file(input_file)  # Load the file (CSV or Excel) and get its content as CSV text
+    csv_text = load_file(input_file, file_type)  # Load the file (CSV or Excel) and get its content as CSV text
     
 
     model_provider_choice = 1 # get_model_provider()
