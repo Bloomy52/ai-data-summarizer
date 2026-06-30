@@ -122,7 +122,7 @@ cd ai-data-summarizer
 uv run main.py
 ```
 
-### Option C: Manual Setup & Run without installing
+### Option C: Run without installing using pip
 1. Clone the git repository and `cd` into it
 ```bash
 git clone https://www.github.com/Bloomy52/ai-data-summarizer.git
@@ -136,16 +136,16 @@ cd ai-data-summarizer
 
 **Linux & macOS Users**
 ```bash
-uv venv
+python3 -m venv .venv
 source .venv/bin/activate
-uv pip install -r requirements.txt
+pip3 install -r requirements.txt
 python3 main.py
 ```
 **Windows Users**
 ```powershell
-uv venv
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-uv pip install -r requirements.txt
+pip install -r requirements.txt
 python main.py
 ```
 
