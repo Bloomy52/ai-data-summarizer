@@ -88,7 +88,7 @@ def load_csv(filepath):
     Returns: str
     """
     try:
-        dataframe = pd.read_csv(filepath, thousands=",")
+        dataframe = pd.read_csv(filepath, thousands=",", parse_dates=True, infer_datetime_format=True)
     except Exception as e:
         print(f"Could not read CSV file '{filepath}'. Details: {e}")
         sys.exit(1)
