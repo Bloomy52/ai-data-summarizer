@@ -16,6 +16,7 @@ from prompt import *
 from apicheck import *
 from envvar import *
 from fileloader import *
+from profiler import *
 
 # Function Definitions
 
