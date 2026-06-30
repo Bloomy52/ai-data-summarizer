@@ -97,7 +97,7 @@ def load_csv(filepath):
         print(f"CSV file '{filepath}' appears to be empty.")
         sys.exit(1)
 
-    return dataframe.to_csv(index=False)
+    return dataframe
 
 
 def load_excel(filepath, sheet_name=None):
@@ -122,7 +122,7 @@ def load_excel(filepath, sheet_name=None):
         print(f"Sheet '{sheet_name}' in file '{filepath}' appears to be empty.")
         sys.exit(1)
 
-    return dataframe.to_csv(index=False)
+    return dataframe
 
 
 def load_file(filepath, sheet_name=None):
