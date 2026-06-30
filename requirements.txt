@@ -4,5 +4,3 @@ openai
 anthropic
 protobuf
 pandas
-openpyxl
-xldr
