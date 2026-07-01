@@ -19,6 +19,7 @@ dependencies = [
     "anthropic",
     "sentencepiece",
     "pandas",
+    "openpyxl",
 ]
 
 [dependency-groups]
