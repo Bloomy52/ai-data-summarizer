@@ -19,6 +19,7 @@ dependencies = [
     "anthropic",
     "sentencepiece",
     "pandas",
+    "python-calamine",
 ]
 
 [dependency-groups]

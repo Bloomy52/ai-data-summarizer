@@ -4,3 +4,4 @@ openai
 anthropic
 protobuf
 pandas
+python-calamine
