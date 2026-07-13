@@ -113,7 +113,7 @@ def load_excel(filepath, sheet_name=None):
             available_sheets = get_sheet_names(filepath)
             sheet_name = available_sheets[0]
 
-        dataframe = pd.read_excel(filepath, sheet_name=sheet_name)
+        dataframe = pd.read_excel(filepath, sheet_name=sheet_name, engine="calamine")
     except Exception as e:
         print(f"Could not read Excel file '{filepath}'. Details: {e}")
         sys.exit(1)
