@@ -124,6 +124,24 @@ def load_excel(filepath, sheet_name=None):
 
     return dataframe.to_csv(index=False)
 
+def load_json(filepath):
+    """
+    Loads a JSON file and returns it as normalized CSV-formatted text.
+
+    Returns: str
+    """
+    try:
+        dataframe = pd.read_json(filepath)
+    except Exception as e:
+        print(f"Could not read JSON file '{filepath}'. Details: {e}")
+        sys.exit(1)
+
+    if dataframe.empty:
+        print(f"JSON file '{filepath}' appears to be empty.")
+        sys.exit(1)
+
+    return dataframe.to_csv(index=False)
+
 
 def load_file(filepath, sheet_name=None):
     """
@@ -140,3 +158,5 @@ def load_file(filepath, sheet_name=None):
         return load_csv(filepath)
     elif file_type == "excel":
         return load_excel(filepath, sheet_name=sheet_name)
+    elif file_type == "json":
+        return load_json(filepath)
