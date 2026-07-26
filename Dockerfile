@@ -1,6 +1,8 @@
 # syntax=docker/dockerfile:1.7
-
 FROM python:3.12-slim
+
+# Copy the uv binary directly from the official Astral image
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
@@ -9,25 +11,17 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-# Minimal system packages + cleanup
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends curl ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
-
-# Install uv
-RUN curl -LsSf https://astral.sh/uv/install.sh | sh
-
 # Copy lock + project metadata first for better layer caching
 COPY pyproject.toml uv.lock ./
 
 # Install dependencies from lockfile
-RUN uv sync --frozen --no-dev
+RUN uv sync --frozen --no-cache
 
 # Copy application source
 COPY . .
 
-# Ensure scripts installed by uv are on PATH
+# Ensure virtualenv binaries are on PATH
 ENV PATH="/app/.venv/bin:${PATH}"
 
-# Default CLI command (override in docker run as needed)
+# Default CLI command
 CMD ["ai-summarizer"]
