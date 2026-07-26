@@ -1,19 +1,8 @@
 {
-  "name": "ai-data-summarizer",
-  "build": {
-    "dockerfile": "../Dockerfile",
-    "context": ".."
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "ms-python.python",
-        "ms-python.vscode-pylance"
-      ]
+  "image": "mcr.microsoft.com/devcontainers/python:3",
+  "features": {
+    "ghcr.io/devcontainer-community/devcontainer-features/astral.sh-uv:1": {
+      "version": "latest"
     }
-  },
-  "postCreateCommand": "uv sync --frozen",
-  "remoteEnv": {
-    "PYTHONUNBUFFERED": "1"
   }
 }
