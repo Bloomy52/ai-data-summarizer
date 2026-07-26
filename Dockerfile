@@ -12,13 +12,16 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /app
 
 # Copy lock + project metadata first for better layer caching
-COPY pyproject.toml uv.lock ./
+COPY pyproject.toml uv.lock README.md ./
 
 # Install dependencies from lockfile
-RUN uv sync --frozen --no-cache
+RUN uv sync --frozen --no-install-project --no-cache
 
 # Copy application source
 COPY . .
+
+# Resync Install
+RUN uv sync --frozen --no-cache
 
 # Ensure virtualenv binaries are on PATH
 ENV PATH="/app/.venv/bin:${PATH}"
