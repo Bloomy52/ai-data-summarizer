@@ -20,6 +20,7 @@ dependencies = [
     "sentencepiece",
     "pandas",
     "openpyxl",
+    "pwinput>=1.0.3",
 ]
 
 [dependency-groups]
