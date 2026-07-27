@@ -4,7 +4,7 @@
     "ghcr.io/devcontainer-community/devcontainer-features/astral.sh-uv:1": {
       "version": "latest"
     },
-    "ghcr.io/devcontainers/features/docker-in-docker:4": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
       "version": "latest"
     }
   }
