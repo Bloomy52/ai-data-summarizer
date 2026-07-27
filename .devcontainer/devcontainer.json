@@ -1,12 +1,11 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/python:3",
+  "image": "mcr.microsoft.com/devcontainers/python:3.14-bookworm",
   "features": {
     "ghcr.io/devcontainer-community/devcontainer-features/astral.sh-uv:1": {
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
-      "version": "latest",
-      "moby": false
+      "version": "latest"
     }
   }
 }
