@@ -29,7 +29,7 @@ Go to [https://git-scm.com/install/linux](https://git-scm.com/install/linux) and
 ## uv
 This project utilizes the [uv](https://docs.astral.sh/uv/) Python Package and Project Manager. You can install it from PyPI with the following command.
 ```bash
-pip install uv
+pipx install uv
 ```
 More installation information and options are available at [https://docs.astral.sh/uv/getting-started/installation/](https://docs.astral.sh/uv/getting-started/installation/).
 
