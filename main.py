@@ -19,6 +19,30 @@ from fileloader import *
 
 # Function Definitions
 
+def check_tokens_gemini(prompt, text):
+    # This function checks the number of tokens to make sure that they are within the Free Tier limits
+    google_tokens = google_tokenizer(prompt, text)
+    if os.getenv("GEMINI_FREE_TIER") == "True" and google_tokens > 250000:
+        print(f"Warning: Your input text has {google_tokens} tokens, which exceeds the free tier limit of 250,000 tokens per minute for Gemini. Consider reducing the input size or upgrading your plan. ")
+        sys.exit(1)
+    elif os.getenv("GEMINI_FREE_TIER") == "True":
+        print(f"Your input text has {google_tokens} tokens, which is within the free tier limit for Gemini.")
+        print("Would you like to continue? (Y/n)")
+        if input().lower() == 'n':
+            sys.exit(1)
+    # TODO (maybe): Add cost functionality to estimate cost of input response
+    return None
+
+def check_tokens_openai(prompt, text):
+    tokens = openai_tokenizer(prompt, text)
+    print(f"Your input text has {tokens} tokens.")
+    return None
+
+def check_tokens_anthropic(prompt, text):
+    tokens = anthropic_tokenizer(prompt, text)
+    print(f"Your input text has {tokens} tokens.")
+    return None
+
 def get_model_provider():
     while True:
         print("\nSelect a model provider:")
