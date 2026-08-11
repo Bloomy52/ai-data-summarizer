@@ -1,0 +1,5413 @@
+[
+    {
+        "SampleDate": "2026-07-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.33",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-07-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-07-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.70",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-07-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-07-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.15",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-07-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.12",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.59",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.75",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.15",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.56",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.55",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.53",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.19",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.27",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.76",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.14",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.12",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.45",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.84",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.47",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.60",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.93",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-06-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.75",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.58",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.54",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.17",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.31",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.10",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.39",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.26",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.59",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.44",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.44",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.70",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.93",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.06",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.57",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.81",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.01",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.08",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.26",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-05-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.11",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.82",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.82",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.75",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.74",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.36",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.72",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.34",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.68",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.60",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.58",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.83",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.24",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.55",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.72",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.66",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.45",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-04-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.39",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.61",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.87",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.72",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.08",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.52",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.73",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.15",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.10",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.79",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.67",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.48",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.43",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.71",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.85",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-03-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.83",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.11",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.39",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.12",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.56",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.61",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.10",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.06",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.81",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.31",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.25",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.48",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.78",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.18",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.24",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.01",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.56",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.19",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.42",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-02-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.26",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.64",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.74",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.64",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.93",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.43",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.83",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.07",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.17",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.66",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.31",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2026-01-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.78",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.64",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.79",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.76",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.79",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.59",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.58",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.83",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.73",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.27",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.57",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.42",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.06",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.29",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.85",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.64",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-12-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.26",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.21",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.18",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.34",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.88",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.01",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.31",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.19",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.73",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-11-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.43",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.14",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.19",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.04",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.20",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.06",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.06",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.86",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.91",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.96",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.18",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.12",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.76",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.54",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.84",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.20",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.53",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-10-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.77",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.04",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.25",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.29",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.87",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.89",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.12",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.36",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.83",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.07",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.29",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.53",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.25",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.65",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.75",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.12",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.56",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.33",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.66",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-09-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.81",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.53",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.91",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.48",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.47",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.86",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.54",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.85",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.88",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.82",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.41",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.96",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.86",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.84",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.85",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.15",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.15",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.11",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.76",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-08-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.83",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.47",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.44",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.10",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.93",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.22",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.26",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.72",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.42",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.66",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.74",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.86",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.17",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.77",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.81",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.08",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.27",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.93",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.27",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.50",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.10",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-07-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.93",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.19",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.76",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.25",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.12",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.40",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.10",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.17",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.58",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.75",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.39",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.42",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.82",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.11",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.24",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.90",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "18.60",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "18.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "18.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "19.39",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.60",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.34",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.60",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.25",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-06-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.80",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.56",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.85",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.14",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.51",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.71",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.96",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.55",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.32",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.47",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.48",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.87",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.14",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.87",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.24",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-05-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.45",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.71",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.35",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.19",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.86",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.28",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.54",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.56",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.22",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.55",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.33",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.91",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.69",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.36",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.89",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-04-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.29",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.57",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.64",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.29",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.07",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.41",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.45",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.49",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.89",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.49",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.87",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.25",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.96",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.34",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.67",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.69",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.60",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-03-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.74",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.60",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.90",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.52",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.22",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.26",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.79",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.83",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.81",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.48",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.93",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.01",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-02-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.11",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.58",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.77",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.15",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.59",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.61",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.39",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.22",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.78",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.04",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.43",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.89",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.64",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.54",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.10",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.31",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2025-01-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.70",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.62",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.78",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.19",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.66",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.64",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.45",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.44",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.50",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.51",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.04",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.91",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.64",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.80",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.15",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.03",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.01",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-12-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.56",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.65",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.35",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.04",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.27",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.10",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.22",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.87",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.88",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.86",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.74",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.45",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.30",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-11-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.17",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.19",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-10-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.07",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.19",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.22",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.28",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.08",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.03",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.07",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.07",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.10",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-09-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.20",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.04",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.11",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.21",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.30",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.33",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.65",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.85",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.82",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.57",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.81",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.67",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.56",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-08-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.74",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.57",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.88",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.93",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.75",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.96",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.03",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.68",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.59",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.96",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.08",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.86",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.88",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.91",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.36",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.18",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.43",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.51",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-07-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.89",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.42",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.97",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.65",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "18.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.18",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.24",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.76",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.54",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.14",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.42",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.51",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.74",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-06-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.95",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.04",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.85",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.85",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.52",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.79",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.65",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.90",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.74",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.22",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.04",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "16.20",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.93",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.50",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "17.20",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.51",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "14.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.66",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "15.81",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.79",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.33",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-05-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.03",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.76",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.36",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.74",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.53",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.65",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "8.44",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "9.04",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.05",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.32",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.62",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.69",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.73",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.52",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "11.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "12.89",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-04-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "13.75",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "10.83",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.20",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.35",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.79",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.50",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.31",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.29",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.44",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.04",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.54",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.82",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.11",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.54",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-03-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.83",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.07",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.60",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.48",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.27",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.56",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.56",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.80",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.57",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.29",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.96",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.35",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.62",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.47",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.35",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.49",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.52",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-02-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.73",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.61",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.32",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.49",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.62",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.49",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.54",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.43",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.75",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.59",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.60",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.32",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.60",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.28",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.41",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.77",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.24",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "7.28",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "6.62",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2024-01-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "5.35",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.46",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.18",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.35",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.16",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.34",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.36",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.39",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.51",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.68",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.57",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.65",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.43",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.41",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.37",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-12-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.12",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.89",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.98",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.89",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.50",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.45",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.50",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.68",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.92",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.99",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.10",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.35",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.49",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.63",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.81",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.03",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.75",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-11-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.59",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.49",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.26",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.23",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.94",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.13",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.50",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.67",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.66",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.07",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.15",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.21",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.18",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.06",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-10-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.20",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.09",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-06",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.03",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-05",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-09-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-30",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-29",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-23",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-22",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-16",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-15",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-11",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.01",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-10",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-09",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-08",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-07",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.02",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-04",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-03",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.01",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-02",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-08-01",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-31",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-28",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-27",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-26",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-25",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": ".00",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-24",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.20",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-21",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.40",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-20",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "1.55",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-19",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.38",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-18",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "3.55",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-17",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "4.21",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-14",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "2.47",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-13",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.77",
+        "CUSTNAME": "DM-Fleur Plant"
+    },
+    {
+        "SampleDate": "2023-07-12",
+        "T_FullName": "Nitrate as N",
+        "SiteName": "Raccoon River",
+        "IPR_Result": "0.45",
+        "CUSTNAME": "DM-Fleur Plant"
+    }
+]
