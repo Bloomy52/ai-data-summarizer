@@ -6,6 +6,19 @@
 import pandas as pd
 
 
+def parse_dates(df):
+    # Returns a copy of df with any date-like object columns converted to datetime
+    df = df.copy()
+    for col in df.select_dtypes(include="object").columns:
+        try:
+            converted = pd.to_datetime(df[col], format="mixed", errors="coerce")
+            if converted.notna().sum() > len(df) * 0.9:  # 90%+ parsed successfully
+                df[col] = converted
+        except Exception:
+            continue
+    return df
+
+
 def build_base_profile(df):
     """
     Returns a plain-text statistical profile of the DataFrame.
@@ -15,6 +28,7 @@ def build_base_profile(df):
     Returns: str
     """
     lines = []
+    df = parse_dates(df)
 
     # Shape
     num_rows, num_cols = df.shape
