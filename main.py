@@ -16,6 +16,7 @@ from prompt import *
 from apicheck import *
 from envvar import *
 from fileloader import *
+from profiler import *
 
 # Function Definitions
 
@@ -61,7 +62,6 @@ def get_model_provider():
 
 # Main Function
 def main():
-    # TODO: Implement main function logic
     read_env()  # Read the .env file to set environment variables
     # Main Interactive Loop:
     # Get input file
@@ -84,9 +84,11 @@ def main():
         break
 
     file_type = detect_file_type(input_file)
-    
-    df = load_file(input_file, file_type) # Loads dataset and returns a DataFrame
-    csv_text = df.to_csv(index=False)
+
+    df = load_file(input_file, file_type)
+    profile = build_base_profile(df)
+    sample = get_sample(df)
+    csv_text = profile + "\nData Sample:\n" + sample
 
     model_provider_choice = 1 # get_model_provider()
                               # Defaults to Gemini since it is the only one provided
