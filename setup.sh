@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Environment Variable Setup Script
 # setup.sh
-# This script automates setup for the summarizer app
+# This script automates setup for the summarizer app for Unix & Unix-like systems.
 # SPDX-License-Identifier: MIT
 
 set -euo pipefail
