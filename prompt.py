@@ -4,29 +4,6 @@
 # SPDX-License-Identifier: MIT
 
 # Define Prompt Choosing Functions
-def get_prompt_type():
-    """
-    This function allows the user to select a prompt from a list of available prompts. 
-    It returns the selected prompt as a string.
-    Returns: str: The selected prompt.
-    """
-    while True:
-        print("\nSelect a Summary:")
-        print("1. TL;DR Summary")
-        print("2. Data Overview")
-        print("3. Deep Dive Analysis")
-        choice = input("Enter the number corresponding to your choice: ").strip()
-
-        if choice == '1':
-            return "tldr"
-        elif choice == '2':
-            return "overview"
-        elif choice == '3':
-            return "deepdive"
-        else:
-            print("Invalid choice. Please enter 1, 2, or 3.")
-
-
 def get_prompt(prompt_type):
     """
     This function retrieves the appropriate prompt based on the user's selection.
