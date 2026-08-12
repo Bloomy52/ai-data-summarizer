@@ -88,7 +88,7 @@ def load_csv(filepath):
     Returns: str
     """
     try:
-        dataframe = pd.read_csv(filepath)
+        dataframe = pd.read_csv(filepath, thousands=',', decimal='.')
     except Exception as e:
         print(f"Could not read CSV file '{filepath}'. Details: {e}")
         sys.exit(1)
