@@ -50,6 +50,25 @@ def build_base_profile(df):
         lines.append(df[numeric_cols].describe().to_string())
         lines.append("")
 
+    # Standout values with date context
+    date_cols = df.select_dtypes(include=["datetime64"]).columns
+    if len(date_cols) > 0 and len(numeric_cols) > 0:
+        date_col = date_cols[0]
+        show_all_cols = len(df.columns) <= 5
+        lines.append("Standout Values:")
+        for col in numeric_cols:
+            if show_all_cols:
+                top5 = df.nlargest(5, col).to_string(index=False)
+                bottom5 = df.nsmallest(5, col).to_string(index=False)
+            else:
+                top5 = df[[date_col, col]].nlargest(5, col).to_string(index=False)
+                bottom5 = df[[date_col, col]].nsmallest(5, col).to_string(index=False)
+            lines.append(f"  Top 5 highest {col}:")
+            lines.append(top5)
+            lines.append(f"  Bottom 5 lowest {col}:")
+            lines.append(bottom5)
+            lines.append("")
+
     # Categorical top values
     categorical_cols = df.select_dtypes(include=["object", "category"]).columns
     if len(categorical_cols) > 0:
