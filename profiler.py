@@ -57,8 +57,11 @@ def build_base_profile(df):
         for col in date_cols:
             min_date = df[col].min()
             max_date = df[col].max()
-            span = (max_date - min_date).days
+            span = (max_date - min_date).days + 1
+            duplicate_dates = df[col].duplicated().sum()
             lines.append(f"  {col}: {min_date.date()} to {max_date.date()} ({span} days)")
+            if duplicate_dates > 0:
+                lines.append(f"  {col} has {duplicate_dates} duplicate date(s)")
         lines.append("")
 
     # Standout values with date context
