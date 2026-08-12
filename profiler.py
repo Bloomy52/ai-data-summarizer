@@ -6,7 +6,7 @@
 import pandas as pd
 
 
-def parse_dates(df):
+def _parse_dates(df):
     # Returns a copy of df with any date-like object columns converted to datetime
     df = df.copy()
     for col in df.select_dtypes(include="object").columns:
@@ -27,8 +27,8 @@ def build_base_profile(df):
 
     Returns: str
     """
+    df = _parse_dates(df)
     lines = []
-    df = parse_dates(df)
 
     # Shape
     num_rows, num_cols = df.shape
@@ -50,8 +50,18 @@ def build_base_profile(df):
         lines.append(df[numeric_cols].describe().to_string())
         lines.append("")
 
+    # Date column summary
+    date_cols = df.select_dtypes(include=["datetime"]).columns
+    if len(date_cols) > 0:
+        lines.append("Date Column Summary:")
+        for col in date_cols:
+            min_date = df[col].min()
+            max_date = df[col].max()
+            span = (max_date - min_date).days
+            lines.append(f"  {col}: {min_date.date()} to {max_date.date()} ({span} days)")
+        lines.append("")
+
     # Standout values with date context
-    date_cols = df.select_dtypes(include=["datetime64"]).columns
     if len(date_cols) > 0 and len(numeric_cols) > 0:
         date_col = date_cols[0]
         show_all_cols = len(df.columns) <= 5
