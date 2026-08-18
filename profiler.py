@@ -57,6 +57,9 @@ def build_base_profile(df):
         for col in date_cols:
             min_date = df[col].min()
             max_date = df[col].max()
+            if pd.isna(min_date) or pd.isna(max_date):
+                lines.append(f"  {col}: (no non-null datetimes)")
+                continue
             span = (max_date - min_date).days + 1
             duplicate_dates = df[col].duplicated().sum()
             lines.append(f"  {col}: {min_date.date()} to {max_date.date()} ({span} days)")
