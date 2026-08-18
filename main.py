@@ -86,7 +86,7 @@ def get_prompt_type():
         elif choice == '1':
             return "facts"
         elif choice == '0':
-            return "exit"
+            sys.exit(0)
         else:
             print("Invalid choice. Please enter 1, 2, 3, 4, or 0.")
 
