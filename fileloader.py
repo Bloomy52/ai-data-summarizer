@@ -125,7 +125,7 @@ def load_excel(filepath, sheet_name=None):
     return dataframe
 
 
-def load_file(filepath, sheet_name=None):
+def load_file(filepath, file_type):
     """
     Dispatches to the correct loader based on the file's detected type, and
     returns normalized CSV-formatted text regardless of the original source format.
@@ -134,9 +134,9 @@ def load_file(filepath, sheet_name=None):
 
     Returns: str
     """
-    file_type = detect_file_type(filepath)
 
     if file_type == "csv":
         return load_csv(filepath)
     elif file_type == "excel":
-        return load_excel(filepath, sheet_name=sheet_name)
+        return load_excel(filepath)
+    return None
