@@ -1,5 +1,5 @@
 # AI Data Summarization Tool
-A Python Tool that takes a dataset and uses Artifical Intelligence (AI) to summarize the data and presents it to the user.
+A Python Tool that takes a dataset and uses pandas to generate a statistical summary and Artifical Intelligence (AI) to interpret the pandas summary and presents it to the user.
 
 This project is a continuation of my CS178 Final Project. You can find the repo at [Bloomy52/cs178-data-summarizer-py](https://www.github.com/Bloomy52/cs178-data-summarizer-py)
 
@@ -16,6 +16,9 @@ ai-data-summarizer/
 ├── tokenizer.py            # Token counting and management utilities
 ├── .env.sample             # Sample credentials file (rename to .env)
 ├── apicheck.py             # Checks API variables to prevent early issues
+├── envvar.py               # Loads environment variables from .env file
+├── fileloader.py           # Loads and parses CSV and Excel files
+├── profiler.py             # Profiles the dataset for pandas summarization
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 ├── INSTALL.md              # Project installation documentation
@@ -62,10 +65,12 @@ ai-summarizer
 Enter the path to your CSV file: examples/CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv
 
 Please Select a Summary:
-1. TL;DR Summary
-2. Data Overview
-3. Deep Dive Analysis
-Enter the number corresponding to your choice: 2
+1. Just the Facts (AI is not used)
+2. TL;DR Summary
+3. Data Overview
+4. Deep Dive Analysis
+Or enter 0 to Exit
+Enter the number corresponding to your choice: 3
 Your input text has 195174 tokens, which is within the free tier limit for Gemini.
 Would you like to continue? (Y/n)
 Y
