@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ai-data-summarizer"
-version = "0.4.3"
+version = "0.4.6"
 description = "A local CLI tool that uses AI to summarize datasets."
 readme = "README.md"
 license = "MIT"
@@ -19,7 +19,8 @@ dependencies = [
     "anthropic",
     "sentencepiece",
     "pandas",
-    "pandas-stubs~=3.0.5",
+    "openpyxl",
+    "pwinput>=1.0.3",
 ]
 
 [dependency-groups]

@@ -4,3 +4,5 @@ openai
 anthropic
 protobuf
 pandas
+openpyxl
+pwinput

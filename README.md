@@ -23,9 +23,14 @@ ai-data-summarizer/
 ├── LICENSE                 # MIT License
 ├── .gitignore              # Git ignore rules
 ├── pyproject.toml          # Python project application configuration files
+├── uv.lock                 # Python/uv dependency lock file
+├── Dockerfile              # Dockerfile for containerized deployment
+├── .dockerignore           # Docker ignore rules
 ├── .vscode/
 │   └── settings.json       # VSCode configuration
-├── summaries/              # Summary output folder -- gets created upon first output summary         
+├── summaries/              # Summary output folder -- gets created upon first output summary
+├── .devcontainer/          
+│   └── devcontainer.json   # Dev container configuration for VSCode
 └── examples/
     ├── CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv                 # Sample dataset
     └── OverviewPrompt_CTA_Ridership_RedLine_WrigleyField_DailyTotals.txt  # Sample summary

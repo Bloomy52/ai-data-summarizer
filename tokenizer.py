@@ -4,13 +4,14 @@
 # SPDX-License-Identifier: MIT
 
 import os
+import sys
 
 from openai import OpenAI
 import anthropic
 from google import genai
 from google.genai import local_tokenizer
 
-# Tokenization Functios
+# Tokenization Functions
 # Google GenAI Tokenizer
 def google_tokenizer(prompt, text):
     MODEL_ID = "gemini-3.5-flash"
@@ -45,4 +46,3 @@ def anthropic_tokenizer(prompt, text):
         messages=[{"role": "user", "content": text}],
     )
     return response.get("input_tokens", 0)
-

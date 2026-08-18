@@ -32,16 +32,17 @@ def check_tokens_gemini(prompt, text):
         if input().lower() == 'n':
             sys.exit(1)
     # TODO (maybe): Add cost functionality to estimate cost of input response
-
+    return None
 
 def check_tokens_openai(prompt, text):
     tokens = openai_tokenizer(prompt, text)
     print(f"Your input text has {tokens} tokens.")
-
+    return None
 
 def check_tokens_anthropic(prompt, text):
     tokens = anthropic_tokenizer(prompt, text)
     print(f"Your input text has {tokens} tokens.")
+    return None
 
 def get_model_provider():
     while True:

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: MIT
 
 import os
-import getpass
+import pwinput
 
 
 def _strip_quotes(value):
@@ -89,7 +89,7 @@ def set_api_keys(model_provider_choice):
 
     # If environment variable is not in .env nor in RAM, prompt the user to enter the API key and save it to .env securely
     if not os.getenv(api_key_name):
-        api_key = getpass.getpass(prompt=f"Enter your {api_key_name} (or leave blank to skip): ", stream=None, echo_char="*").strip()
+        api_key = pwinput.pwinput(prompt=f"Enter your {api_key_name} (or leave blank to skip): ", mask="*").strip()
         api_key = _strip_quotes(api_key)  # Allow the user to paste a key wrapped in quotes
         if api_key:
             os.environ[api_key_name] = api_key
