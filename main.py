@@ -69,22 +69,25 @@ def get_prompt_type():
     """
     while True:
         print("\nSelect a Summary:")
-        print("1. TL;DR Summary")
-        print("2. Data Overview")
-        print("3. Deep Dive Analysis")
-        print("0. Just the Facts (AI is not used)")
+        print("1. Just the Facts (AI is not used)")
+        print("2. TL;DR Summary")
+        print("3. Data Overview")
+        print("4. Deep Dive Analysis")
+        print("Or enter 0 to Exit")
         choice = input("Enter the number corresponding to your choice: ").strip()
 
-        if choice == '1':
+        if choice == '2':
             return "tldr"
-        elif choice == '2':
-            return "overview"
         elif choice == '3':
+            return "overview"
+        elif choice == '4':
             return "deepdive"
-        elif choice == '0':
+        elif choice == '1':
             return "facts"
+        elif choice == '0':
+            return "exit"
         else:
-            print("Invalid choice. Please enter 1, 2, 3, or 0.")
+            print("Invalid choice. Please enter 1, 2, 3, 4, or 0.")
 
 # Main Function
 def main():
