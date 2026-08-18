@@ -88,7 +88,7 @@ def load_csv(filepath):
     Returns: str
     """
     try:
-        dataframe = pd.read_csv(filepath)
+        dataframe = pd.read_csv(filepath, thousands=',', decimal='.')
     except Exception as e:
         print(f"Could not read CSV file '{filepath}'. Details: {e}")
         sys.exit(1)
@@ -97,7 +97,7 @@ def load_csv(filepath):
         print(f"CSV file '{filepath}' appears to be empty.")
         sys.exit(1)
 
-    return dataframe.to_csv(index=False)
+    return dataframe
 
 
 def load_excel(filepath, sheet_name=None):
@@ -122,10 +122,10 @@ def load_excel(filepath, sheet_name=None):
         print(f"Sheet '{sheet_name}' in file '{filepath}' appears to be empty.")
         sys.exit(1)
 
-    return dataframe.to_csv(index=False)
+    return dataframe
 
 
-def load_file(filepath, sheet_name=None):
+def load_file(filepath, file_type):
     """
     Dispatches to the correct loader based on the file's detected type, and
     returns normalized CSV-formatted text regardless of the original source format.
@@ -134,9 +134,9 @@ def load_file(filepath, sheet_name=None):
 
     Returns: str
     """
-    file_type = detect_file_type(filepath)
 
     if file_type == "csv":
         return load_csv(filepath)
     elif file_type == "excel":
-        return load_excel(filepath, sheet_name=sheet_name)
+        return load_excel(filepath)
+    return None
