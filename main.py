@@ -16,6 +16,7 @@ from prompt import *
 from apicheck import *
 from envvar import *
 from fileloader import *
+from profiler import *
 
 # Function Definitions
 
@@ -60,9 +61,37 @@ def get_model_provider():
         else:
             print("Invalid choice. Please enter 1, 2, or 3.")
 
+# Define Prompt Choosing Function
+def get_prompt_type():
+    """
+    This function allows the user to select a prompt from a list of available prompts.
+    It returns the selected prompt as a string.
+    Returns: str: The selected prompt.
+    """
+    while True:
+        print("\nSelect a Summary:")
+        print("1. Just the Facts (AI is not used)")
+        print("2. TL;DR Summary")
+        print("3. Data Overview")
+        print("4. Deep Dive Analysis")
+        print("Or enter 0 to Exit")
+        choice = input("Enter the number corresponding to your choice: ").strip()
+
+        if choice == '2':
+            return "tldr"
+        elif choice == '3':
+            return "overview"
+        elif choice == '4':
+            return "deepdive"
+        elif choice == '1':
+            return "facts"
+        elif choice == '0':
+            sys.exit(0)
+        else:
+            print("Invalid choice. Please enter 1, 2, 3, 4, or 0.")
+
 # Main Function
 def main():
-    # TODO: Implement main function logic
     read_env()  # Read the .env file to set environment variables
     # Main Interactive Loop:
     # Get input file
@@ -85,19 +114,24 @@ def main():
         break
 
     file_type = detect_file_type(input_file)
-    
-    csv_text = load_file(input_file, file_type)  # Load the file (CSV or Excel) and get its content as CSV text
-    
+
+    df = load_file(input_file, file_type)
+    profile = build_base_profile(df)
+    sample = get_sample(df)
+    csv_text = "\nData Profile:" + profile + "\nData Sample:\n" + sample
 
     model_provider_choice = 1 # get_model_provider()
                               # Defaults to Gemini since it is the only one provided
     check_api_keys(model_provider_choice)
     prompt_type = get_prompt_type()
-    prompt = get_prompt(prompt_type)
+    if prompt_type == "facts":
+        summary = "Dataset Statistical Summary:\n" + profile + "\nData Sample:\n" + sample
+        write_outfile(summary, os.path.basename(input_file).split(".")[0], prompt_type, "None")
+    else:
+        prompt = get_prompt(prompt_type)
+        check_tokens_gemini(prompt, csv_text)
+        summary = gemini_summarizer(prompt, csv_text, os.path.basename(input_file).split(".")[0], prompt_type)
 
-    check_tokens_gemini(prompt, csv_text)
-
-    summary = gemini_summarizer(prompt, csv_text, os.path.basename(input_file).split(".")[0], prompt_type)
     print("\nSummary:\n")
     print(summary)
 

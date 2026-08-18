@@ -154,8 +154,17 @@ pip install -r requirements.txt
 python main.py
 ```
 
+### Option D: Run using a Docker container
+This option requires that you have Docker installed on your computer. Information on how to install Docker is in [INSTALL.md](INSTALL.md#docker).
+```bash
+docker build -t ai-data-summarizer .
+docker run --rm -it --env-file .env ai-data-summarizer
+```
+
+
+
 > [!NOTE]
-> All three options run the same underlying code. Option A installs `ai-summarizer` as a command while Options B & C run it directly via `main.py` inside a virtual environment. 
+> All four options run the same underlying code. Option A installs `ai-summarizer` as a command while Options B & C run it directly via `main.py` inside a virtual environment. 
 
 
    

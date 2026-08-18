@@ -4,29 +4,6 @@
 # SPDX-License-Identifier: MIT
 
 # Define Prompt Choosing Functions
-def get_prompt_type():
-    """
-    This function allows the user to select a prompt from a list of available prompts. 
-    It returns the selected prompt as a string.
-    Returns: str: The selected prompt.
-    """
-    while True:
-        print("\nSelect a Summary:")
-        print("1. TL;DR Summary")
-        print("2. Data Overview")
-        print("3. Deep Dive Analysis")
-        choice = input("Enter the number corresponding to your choice: ").strip()
-
-        if choice == '1':
-            return "tldr"
-        elif choice == '2':
-            return "overview"
-        elif choice == '3':
-            return "deepdive"
-        else:
-            print("Invalid choice. Please enter 1, 2, or 3.")
-
-
 def get_prompt(prompt_type):
     """
     This function retrieves the appropriate prompt based on the user's selection.
@@ -45,7 +22,7 @@ def get_prompt(prompt_type):
 def get_tldr_prompt():
     task_summary = f"""
     ## Task Summary:
-    {{Produce a 'Too Long; Didn’t Read' (TL;DR) summary of the attached dataset. The TL;DR sentence should describe, in one high-level line, what the dataset is and what it covers. Then provide 2–3 bullets highlighting the most notable patterns, trends, or anomalies visible in the data. Use numeric ranges when helpful, but keep the focus on the biggest takeaways.}}
+    {{Produce a 'Too Long; Didn’t Read' (TL;DR) summary of the attached dataset and statistical summary. The TL;DR sentence should describe, in one high-level line, what the dataset is and what it covers. Then provide 2–3 bullets highlighting the most notable patterns, trends, or anomalies visible in the data. Use numeric ranges when helpful, but keep the focus on the biggest takeaways.}}
     """
 
     response_style = f"""
@@ -58,6 +35,7 @@ def get_tldr_prompt():
         - Use numeric anchors when possible
         - Avoid hedging, filler, or multi-clause sentences
         - Read like headlines, not explanations}}
+    - {{Numbers in the stats block are exact — use them directly, don't estimate from sample rows}}
     - {{Strictly limit the response to 100 words or less}}
     - {{Use plain text only — no Markdown. Bullets are to be noted with '-'}}
     """
@@ -73,7 +51,7 @@ def get_overview_prompt():
     # Use this to clearly define the task and job needed by the model
     task_summary = f"""
     ## Task Summary:
-    {{Review the attached CSV and summarize what the data covers, including anything notable or unusual.}}
+    {{Review the attached CSV and statistical summary and summarize what the data covers, including anything notable or unusual.}}
     """
 
     # Use this to provide contextual information related to the task
@@ -83,6 +61,9 @@ def get_overview_prompt():
     - {{Columns may include numbers, text, or dates}}
     - {{Treat all dates in the data file as a recorded value and not predictions}}
     - {{The dataset may cover any domain — do not assume a specific subject area}}
+    - {{The stats block (counts, mean/median, ranges, date span, category counts) is precomputed and exact — treat these numbers as ground truth}}
+    - {{Standout/extreme rows shown are the most unusual in the dataset, not typical examples}}
+    - {{Any raw sample rows are shown only to illustrate formatting and column meaning, not to infer statistics}}
     """
 
     # Use this to provide any model instructions that you want model to adhere to
@@ -97,7 +78,7 @@ def get_overview_prompt():
     # Use this to provide response style and formatting guidance
     response_style = f"""
     ## Response style and format requirements:
-    - {{Write as if explaining the data to a coworker}}
+    - {{Write a standalone written summary as if briefing a coworker}}
     - {{Use three sections: overview, column breakdown, and key takeaways}}
     - {{Limit the response to 500 words or less}}
     - {{Use plain text only — no Markdown. Bullets are to be noted with '-'. No Markdown headings.}}
@@ -115,7 +96,7 @@ def get_overview_prompt():
 def get_deepdive_prompt():
     task_summary = f"""
     ## Task Summary:
-    {{Perform a detailed deep dive analysis of the attached CSV dataset. Go beyond surface-level description to examine distributions, patterns, relationships, and notable characteristics in the data.}}
+    {{Perform a detailed deep dive analysis of the attached CSV dataset and statistical summary. Go beyond surface-level description to examine distributions, patterns, relationships, and notable characteristics in the data.}}
     """
 
     context_information = f"""
@@ -126,9 +107,17 @@ def get_deepdive_prompt():
     - {{The dataset may cover any domain — analyze based solely on what is present}}
     """
 
+    input_composition = f"""
+    ## Input Composition:
+    - {{The stats block (counts, mean, median, std, min/max, date span, category counts) is precomputed directly from the full dataset and is exact — treat it as ground truth, never recompute or estimate these figures yourself}}
+    - {{The standout/extreme rows (top and bottom values) represent the most unusual points in the entire dataset, not a representative sample — use them only to discuss outliers, spikes, or anomalies}}
+    - {{The raw sample rows are a small illustrative slice included only to show formatting, column meaning, and qualitative texture — they are not necessarily representative of the full distribution and should not be used to infer statistics}}
+    """
+
     model_instructions = f"""
     ## Model Instructions:
     - {{For numeric columns: report range (min-max), central tendency (mean/median if relevant), and distribution shape}}
+    - {{For numeric columns: also describe distribution shape based on the relationship between mean, median, and standard deviation}}
     - {{For categorical/text columns: list top unique values with counts and note any dominant categories}}
     - {{Identify any clear relationships or correlations between columns that stand out}}
     - {{Highlight temporal patterns if dates are present, or geographic patterns if location data exists}}
@@ -148,6 +137,7 @@ def get_deepdive_prompt():
 
     final_prompt = f"""{task_summary}
     {context_information}
+    {input_composition}
     {model_instructions}
     {response_style}"""
 
