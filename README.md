@@ -155,7 +155,7 @@ python main.py
 ```
 
 ### Option D: Run using a Docker container
-This option requires that you have Docker installed on your computer. Information on how to install Docker is in [INSTALL.md](INSTALL.md#Docker)
+This option requires that you have Docker installed on your computer. Information on how to install Docker is in [INSTALL.md](INSTALL.md#docker).
 ```bash
 docker build -t ai-data-summarizer .
 docker run --rm -it --env-file .env ai-data-summarizer
