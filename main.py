@@ -129,6 +129,7 @@ def main():
         write_outfile(summary, os.path.basename(input_file).split(".")[0], prompt_type, "None")
     else:
         prompt = get_prompt(prompt_type)
+        check_tokens_gemini(prompt, csv_text)
         summary = gemini_summarizer(prompt, csv_text, os.path.basename(input_file).split(".")[0], prompt_type)
 
     print("\nSummary:\n")
