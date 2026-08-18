@@ -29,6 +29,26 @@ Go to [https://git-scm.com/install/linux](https://git-scm.com/install/linux) and
 ## uv
 This project utilizes the [uv](https://docs.astral.sh/uv/) Python Package and Project Manager. You can install it from PyPI with the following command.
 ```bash
-pip install uv
+pipx install uv
 ```
 More installation information and options are available at [https://docs.astral.sh/uv/getting-started/installation/](https://docs.astral.sh/uv/getting-started/installation/).
+
+## Docker
+If you don't want to install Python on your computer, you can run this program in a Docker container. 
+
+### macOS
+**Make sure you have Homebrew installed** [https://www.brew.sh](https://www.brew.sh).
+```bash
+brew install docker colima
+colima start
+```
+
+### Linux
+**This will depend on your distribution, but I will list the way to do it using `apt`.**
+```bash
+sudo apt update
+sudo apt install -y docker.io
+```
+
+### Windows
+To use the Docker Engine on Windows, we need to install Docker Desktop. You can install Docker Desktop here: [https://docs.docker.com/desktop/setup/install/windows-install/](https://docs.docker.com/desktop/setup/install/windows-install/).
