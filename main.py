@@ -8,6 +8,7 @@ import os
 import sys
 import datetime
 import csv
+from readchar import readkey, key
 
 # Import the functions from the summarizer.py helper file
 from summarizer import *
@@ -29,8 +30,15 @@ def check_tokens_gemini(prompt, text):
     elif os.getenv("GEMINI_FREE_TIER") == "True":
         print(f"Your input text has {google_tokens} tokens, which is within the free tier limit for Gemini.")
         print("Would you like to continue? (Y/n)")
-        if input().lower() == 'n':
-            sys.exit(1)
+        while True:
+            k = readkey()
+            if k == 'y' or k == 'Y' or k == key.ENTER:
+                return None
+            elif k == 'n' or k == 'N':
+                sys.exit(1)
+            else:
+                print("Invalid input. Please enter y or n.")
+
     # TODO (maybe): Add cost functionality to estimate cost of input response
     return None
 
@@ -50,14 +58,17 @@ def get_model_provider():
         print("1. Google Gemini")
         print("2. OpenAI")
         print("3. Anthropic")
-        choice = input("Enter the number corresponding to your choice: ").strip()
+        print("Or press q to quit the program.")
+        k = readkey()
 
-        if choice == '1':
+        if k == '1':
             return 1 # Gemini
-        elif choice == '2':
+        elif k == '2':
             return 2 # OpenAI
-        elif choice == '3':
+        elif k == '3':
             return 3 # Anthropic
+        elif k == 'q':
+            sys.exit(1)
         else:
             print("Invalid choice. Please enter 1, 2, or 3.")
 
@@ -74,21 +85,21 @@ def get_prompt_type():
         print("2. TL;DR Summary")
         print("3. Data Overview")
         print("4. Deep Dive Analysis")
-        print("Or enter 0 to Exit")
-        choice = input("Enter the number corresponding to your choice: ").strip()
+        print("Or press q to quit the program.")
+        k = readkey()
 
-        if choice == '2':
+        if k == '2':
             return "tldr"
-        elif choice == '3':
+        elif k == '3':
             return "overview"
-        elif choice == '4':
+        elif k == '4':
             return "deepdive"
-        elif choice == '1':
+        elif k == '1':
             return "facts"
-        elif choice == '0':
-            sys.exit(0)
+        elif k == 'q':
+            sys.exit(1)
         else:
-            print("Invalid choice. Please enter 1, 2, 3, 4, or 0.")
+            print("Invalid choice. Please enter 1, 2, 3, 4, or q.")
 
 # Main Function
 def main():
