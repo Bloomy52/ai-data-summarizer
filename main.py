@@ -35,7 +35,7 @@ def check_tokens_gemini(prompt, text):
             if k == 'y' or k == 'Y' or k == key.ENTER:
                 return None
             elif k == 'n' or k == 'N':
-                sys.exit(0)
+                sys.exit(1)
             else:
                 print("Invalid input. Please enter y or n.")
 
@@ -68,7 +68,7 @@ def get_model_provider():
         elif k == '3':
             return 3 # Anthropic
         elif k == 'q':
-            sys.exit(0)
+            sys.exit(1)
         else:
             print("Invalid choice. Please enter 1, 2, or 3.")
 
@@ -97,7 +97,7 @@ def get_prompt_type():
         elif k == '1':
             return "facts"
         elif k == 'q':
-            sys.exit(0)
+            sys.exit(1)
         else:
             print("Invalid choice. Please enter 1, 2, 3, 4, or q.")
 
