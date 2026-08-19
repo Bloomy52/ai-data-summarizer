@@ -30,7 +30,6 @@ def check_tokens_gemini(prompt, text):
     elif os.getenv("GEMINI_FREE_TIER") == "True":
         print(f"Your input text has {google_tokens} tokens, which is within the free tier limit for Gemini.")
         print("Would you like to continue? (Y/n)")
-        # first make sure the user enters Y/y or N/n before checking whether they selected yes or no
         while True:
             k = readkey()
             if k == 'y' or k == 'Y' or k == key.ENTER:
@@ -60,15 +59,15 @@ def get_model_provider():
         print("2. OpenAI")
         print("3. Anthropic")
         print("Or press q to quit the program.")
-        key = readkey()
+        k = readkey()
 
-        if key == '1':
+        if k == '1':
             return 1 # Gemini
-        elif key == '2':
+        elif k == '2':
             return 2 # OpenAI
-        elif key == '3':
+        elif k == '3':
             return 3 # Anthropic
-        elif key == 'q':
+        elif k == 'q':
             sys.exit(0)
         else:
             print("Invalid choice. Please enter 1, 2, or 3.")
@@ -87,17 +86,17 @@ def get_prompt_type():
         print("3. Data Overview")
         print("4. Deep Dive Analysis")
         print("Or press q to quit the program.")
-        key = readkey()
+        k = readkey()
 
-        if key == '2':
+        if k == '2':
             return "tldr"
-        elif key == '3':
+        elif k == '3':
             return "overview"
-        elif key == '4':
+        elif k == '4':
             return "deepdive"
-        elif key == '1':
+        elif k == '1':
             return "facts"
-        elif key == 'q':
+        elif k == 'q':
             sys.exit(0)
         else:
             print("Invalid choice. Please enter 1, 2, 3, 4, or q.")
