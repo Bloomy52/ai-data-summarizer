@@ -31,7 +31,7 @@ dev = [
 ]
 
 [project.scripts]
-ai-summarizer = "main:main"
+sumdata = "main:main"
 
 [project.urls]
 Homepage = "https://github.com/Bloomy52/ai-data-summarizer"
