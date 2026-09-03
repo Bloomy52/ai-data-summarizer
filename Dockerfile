@@ -27,4 +27,4 @@ RUN uv sync --frozen --no-cache
 ENV PATH="/app/.venv/bin:${PATH}"
 
 # Default CLI command
-CMD ["ai-summarizer"]
+CMD ["sumdata"]

@@ -59,7 +59,7 @@ The example used here is the number of daily riders from the Addison 'L' Stop on
 * `rides` is the number of riders recorded on a given day
 
 ```bash
-ai-summarizer
+sumdata
 ```
 ```text
 Enter the path to your CSV file: examples/CTA_Ridership_RedLine_WrigleyField_DailyTotals.csv
@@ -114,7 +114,7 @@ uv tool install git+https://www.github.com/Bloomy52/ai-data-summarizer.git
 ```
    Then run:
 ```bash
-ai-summarizer
+sumdata
 ```
 
 ### Option B: Run without installing using uv
@@ -169,7 +169,7 @@ docker run --rm -it --env-file .env ai-data-summarizer
 
 
 > [!NOTE]
-> All four options run the same underlying code. Option A installs `ai-summarizer` as a command while Options B & C run it directly via `main.py` inside a virtual environment. 
+> All four options run the same underlying code. Option A installs `sumdata` as a command while Options B & C run it directly via `main.py` inside a virtual environment. 
 
 
    

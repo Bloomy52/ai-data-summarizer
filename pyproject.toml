@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ai-data-summarizer"
-version = "0.6.8"
+version = "0.7.0"
 description = "A local CLI tool that uses AI to summarize datasets."
 readme = "README.md"
 license = "MIT"
@@ -31,7 +31,7 @@ dev = [
 ]
 
 [project.scripts]
-ai-summarizer = "main:main"
+sumdata = "main:main"
 
 [project.urls]
 Homepage = "https://github.com/Bloomy52/ai-data-summarizer"
