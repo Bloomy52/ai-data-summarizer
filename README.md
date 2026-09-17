@@ -106,15 +106,21 @@ See [INSTALL.md](INSTALL.md) for detailed setup instructions, including how to o
 
 
 ## How to Use/Installation
-There are three options for running this program. Please choose one of these options.
+There are four options for running this program. Please choose one of these options.
 
 ### Option A: Install as a package (recommended)
 ```bash
-uv tool install git+https://www.github.com/Bloomy52/ai-data-summarizer.git
+uv tool install ai-data-summarizer
+# or use pipx
+pipx install ai-data-summarizer
 ```
    Then run:
 ```bash
 sumdata
+```
+If you want to use the `uv tool install` using latest source releases, use the following command:
+```bash
+uv tool install git+https://www.github.com/Bloomy52/ai-data-summarizer.git
 ```
 
 ### Option B: Run without installing using uv
