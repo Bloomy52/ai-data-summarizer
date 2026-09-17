@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ai-data-summarizer"
-version = "0.7.0"
+version = "0.7.1"
 description = "A local CLI tool that uses pandas and AI to summarize and interpret datasets."
 readme = "README.md"
 license = "MIT"
@@ -37,15 +37,13 @@ sumdata = "main:main"
 Homepage = "https://github.com/Bloomy52/ai-data-summarizer"
 
 [tool.hatch.build.targets.wheel]
-packages = ["."]
-exclude = [
-    "examples/",
-    "*.md",
-    ".venv/",
-    "tests/",
-    "summaries/",
-    ".vscode/",
-    ".gitignore",
-    "requirements.txt",
-    "pyproject.toml",
+only-include = [
+    "main.py",
+    "apicheck.py",
+    "envvar.py",
+    "fileloader.py",
+    "profiler.py",
+    "prompt.py",
+    "summarizer.py",
+    "tokenizer.py",
 ]
