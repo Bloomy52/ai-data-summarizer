@@ -5,6 +5,12 @@ This project utilizes Python 3.12. You can download Python at the following down
 > [!IMPORTANT]
 > **Windows Users**: Make sure that the Python Interpreter was added to the Path environment variable. When going through the installer, there should be an option in the Python installer that says "Add to Path." Make sure that option is checked. If you don't check the box, the following commands when running the code will not work!
 
+### ``pipx``
+This project allows users to install the package via `pipx`. To install `pipx` use the following command:
+```bash
+python3 -m pip install pipx
+```
+
 
 ## API Keys
 This project utilizes AI API Keys. You may use any model you please as long as you have the correct API Key. Google has a very generous Free API, so I will be basing the rest of this project off of that, but I will include support for the OpenAI and Anthropic API Libraries. You can find documentation for how to get API Keys in the API Keys section below.
