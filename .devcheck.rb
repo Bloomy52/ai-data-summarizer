@@ -1,3 +1,6 @@
+name "AI Data Summarization Tool"
+id "ai-data-summarizer"
+
 command "git"
 command "uv"
 command "python3"
