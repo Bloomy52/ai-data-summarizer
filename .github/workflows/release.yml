@@ -64,3 +64,66 @@ jobs:
 
       - name: Publish
         run: uv publish
+
+    
+  github_release:
+    needs: publish
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download distributions
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: dist
+          path: dist/
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          TAG="$GITHUB_REF_NAME"
+          VERSION="${TAG#v}"
+
+          cat > release-notes.md <<EOF
+          ## Quick Installation
+
+          Requires Python 3.12+ and either uv or pipx.
+
+          ### Option A: uv (Recommended)
+
+          ~~~bash
+          uv tool install "ai-data-summarizer==$VERSION"
+          sumdata
+          ~~~
+
+          ### Option B: pipx
+
+          ~~~bash
+          pipx install "ai-data-summarizer==$VERSION"
+          sumdata
+          ~~~
+
+          ## Configuration
+
+          For AI-powered summaries, provide your API
+          key when prompted.
+
+          See the [Installation Guide](https://github.com/$GH_REPO/blob/$TAG/INSTALL.md)
+          and [Configuration Guide](https://github.com/$GH_REPO/blob/$TAG/CONFIGURATION.md)
+          for additional instructions.
+          EOF
+
+          flags=()
+          if [[ "$VERSION" =~ (rc|a|b)[0-9]+$ ]]; then
+            flags+=(--prerelease --latest=false)
+          fi
+
+          gh release create "$TAG" dist/* \
+            --title "AI Data Summarizer $TAG" \
+            --notes-file release-notes.md \
+            --verify-tag \
+            "${flags[@]}"
+
