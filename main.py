@@ -6,8 +6,6 @@
 # Import Statements
 import os
 import sys
-import datetime
-import csv
 from readchar import readkey, key
 
 # Import the functions from the summarizer.py helper file
