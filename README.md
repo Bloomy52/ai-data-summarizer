@@ -114,7 +114,7 @@ uv tool install ai-data-summarizer
 # or use pipx
 pipx install ai-data-summarizer
 ```
-   Then run:
+Then run:
 ```bash
 sumdata
 ```
