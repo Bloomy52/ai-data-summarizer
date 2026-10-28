@@ -6,3 +6,4 @@ protobuf
 pandas
 openpyxl
 pwinput
+readchar
